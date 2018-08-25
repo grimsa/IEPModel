@@ -171,6 +171,7 @@
   </iep:site>
   <iep:buildings>
     <iep:building>
+      <iep:useAndOccupancyClassification>R3</iep:useAndOccupancyClassification>
       <iep:roof>
         <iep:roofFaces>
           <iep:roofFace id="arraybase-255072">
@@ -1308,7 +1309,6 @@
           </iep:roofFace>
         </iep:roofFaces>
       </iep:roof>
-      <iep:useAndOccupancyClassification>R3</iep:useAndOccupancyClassification>
     </iep:building>
   </iep:buildings>
   <iep:electricDistributionSystems>
