@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<iep:Project xmlns:iep="http://www.iepmodel.net" id="sdt-92525">
+  <iep:applicationIds>
+    <iep:applicationId>
+      <iep:idValue>92525</iep:idValue>
+      <iep:idSource>SolarDesignTool</iep:idSource>
+    </iep:applicationId>
+  </iep:applicationIds>
+  <iep:name>Integration Testing Project 1</iep:name>
+  <iep:description>Aerial, String Inverter, 2 strings</iep:description>
+  <iep:scopeOfWork>This project involves the installation of solar panels. The solar panels will be racked using a preengineered racking system. The racked modules will be electrically connected with DC to AC power inverters and interconnected to the local utility using means and methods consistent with the rules enforced by the local utility and permitting jurisdiction.</iep:scopeOfWork>
+  <iep:participants>
+    <iep:participant>
+      <iep:contacts>
+        <iep:contact>
+          <iep:firstName>Derek</iep:firstName>
+          <iep:middleName></iep:middleName>
+          <iep:lastName>Mitchell</iep:lastName>
+        </iep:contact>
+      </iep:contacts>
+      <iep:addresses>
+        <iep:address>
+          <iep:line1>141 Kennan St</iep:line1>
+          <iep:city>Santa Cruz</iep:city>
+          <iep:state>CA</iep:state>
+          <iep:zipCode>95060</iep:zipCode>
+          <iep:coordinates/>
+        </iep:address>
+      </iep:addresses>
+      <iep:roles>
+        <iep:role>PROPERTY_OWNER</iep:role>
+        <iep:role>PV_SYSTEM_OWNER</iep:role>
+      </iep:roles>
+    </iep:participant>
+    <iep:participant>
+      <iep:organization>AAA Solar</iep:organization>
+      <iep:contacts>
+        <iep:contact>
+          <iep:phoneNumbers>
+            <iep:phoneNumber>
+              <iep:number>8312973072</iep:number>
+              <iep:primary>true</iep:primary>
+            </iep:phoneNumber>
+          </iep:phoneNumbers>
+        </iep:contact>
+      </iep:contacts>
+      <iep:addresses>
+        <iep:address>
+          <iep:line1>134 Hunolt Street</iep:line1>
+          <iep:line2></iep:line2>
+          <iep:city>Santa Cruz</iep:city>
+          <iep:state>CA</iep:state>
+          <iep:zipCode>95060</iep:zipCode>
+          <iep:coordinates/>
+        </iep:address>
+      </iep:addresses>
+      <iep:roles>
+        <iep:role>INSTALLER</iep:role>
+      </iep:roles>
+      <iep:credentials>
+        <iep:credential>
+          <iep:caInternalId>34587345345</iep:caInternalId>
+          <iep:caId>0</iep:caId>
+          <iep:caName>C-46</iep:caName>
+        </iep:credential>
+      </iep:credentials>
+    </iep:participant>
+  </iep:participants>
+  <iep:codes>
+    <iep:code>
+      <iep:name>California Electric Code</iep:name>
+      <iep:acronym>CEC</iep:acronym>
+      <iep:edition>2016</iep:edition>
+    </iep:code>
+    <iep:code>
+      <iep:name>California Fire Code</iep:name>
+      <iep:acronym>CFC</iep:acronym>
+      <iep:edition>2016</iep:edition>
+    </iep:code>
+  </iep:codes>
+  <iep:site>
+    <iep:location>
+      <iep:line1>141 Kennan St</iep:line1>
+      <iep:city>Santa Cruz</iep:city>
+      <iep:state>CA</iep:state>
+      <iep:zipCode>95060</iep:zipCode>
+      <iep:coordinates>
+        <iep:latitude>36.9820692609</iep:latitude>
+        <iep:longitude>-122.0241293742</iep:longitude>
+      </iep:coordinates>
+      <iep:mapUrl>http://maps.googleapis.com/maps/api/staticmap?center=36.9820692609,-122.0241293742&amp;size=500x500&amp;scale=1&amp;zoom=21</iep:mapUrl>
+    </iep:location>
+    <iep:siteMapCoordinateSystemOrigin>
+      <iep:latitude>36.98204329593189</iep:latitude>
+      <iep:longitude>-122.0241910700445</iep:longitude>
+    </iep:siteMapCoordinateSystemOrigin>
+    <iep:siteDefinitionMethod>TWO_DIMENSIONAL_IMAGE_TRACE</iep:siteDefinitionMethod>
+    <iep:structuralDesignParameters>
+      <iep:asceEdition>ASCE_7_10</iep:asceEdition>
+      <iep:windExposureCategory>B</iep:windExposureCategory>
+      <iep:topographicalCondition>STANDARD</iep:topographicalCondition>
+      <iep:designWindSpeed>110</iep:designWindSpeed>
+      <iep:specialWindRegion>false</iep:specialWindRegion>
+      <iep:highestRiskCategory>II</iep:highestRiskCategory>
+      <iep:groundSnowLoad>0</iep:groundSnowLoad>
+    </iep:structuralDesignParameters>
+    <iep:assessorsParcelNumber>34578345</iep:assessorsParcelNumber>
+    <iep:administrativeDivision id="1776">
+      <iep:applicationIds>
+        <iep:applicationId>
+          <iep:idValue>1776</iep:idValue>
+          <iep:idSource>SolarDesignTool</iep:idSource>
+        </iep:applicationId>
+      </iep:applicationIds>
+      <iep:name>Santa Cruz</iep:name>
+      <iep:authorityHavingJurisdiction>
+        <iep:address>
+          <iep:city>Santa Cruz</iep:city>
+          <iep:state>CA</iep:state>
+          <iep:coordinates/>
+        </iep:address>
+      </iep:authorityHavingJurisdiction>
+      <iep:type>INCORPORATED_PLACE</iep:type>
+      <iep:incorporatedPlaceType>CITY</iep:incorporatedPlaceType>
+      <iep:state>CA</iep:state>
+      <iep:latitude>37.051</iep:latitude>
+      <iep:longitude>-122.0136</iep:longitude>
+    </iep:administrativeDivision>
+    <iep:weather>
+      <iep:temperatureDatasets>
+        <iep:ashraeTemperatureDataset>
+          <iep:highestMonth2PercentDryBulbTemperature>32</iep:highestMonth2PercentDryBulbTemperature>
+          <iep:minimumMeanExtremeDryBulbTemperature>0</iep:minimumMeanExtremeDryBulbTemperature>
+          <iep:maximumMeanExtremeDryBulbTemperature>38</iep:maximumMeanExtremeDryBulbTemperature>
+          <iep:highTemperatureInConduitHalfInchAboveRoof>54</iep:highTemperatureInConduitHalfInchAboveRoof>
+          <iep:highTemperatureInConduitThreeAndHalfInchesAboveRoof>49</iep:highTemperatureInConduitThreeAndHalfInchesAboveRoof>
+          <iep:highTemperatureInConduitOneFootAboveRoof>46</iep:highTemperatureInConduitOneFootAboveRoof>
+          <iep:highTemperatureInConduitThreeFeetAboveRoof>48</iep:highTemperatureInConduitThreeFeetAboveRoof>
+        </iep:ashraeTemperatureDataset>
+        <iep:historicTemperatureDataset>
+          <iep:highestMonthlyAverageHighTemperature>29</iep:highestMonthlyAverageHighTemperature>
+          <iep:recordLowTemperature>-8</iep:recordLowTemperature>
+        </iep:historicTemperatureDataset>
+      </iep:temperatureDatasets>
+    </iep:weather>
+  </iep:site>
+  <iep:buildings>
+    <iep:building>
+      <iep:roof>
+        <iep:roofFaces>
+          <iep:roofFace id="arraybase-255059">
+            <iep:name>Test</iep:name>
+            <iep:azimuth>71.0</iep:azimuth>
+            <iep:slope>36.9</iep:slope>
+            <iep:area>74.7</iep:area>
+            <iep:polygon2dSceneOrthoProjection>
+              <iep:vertices>
+                <iep:vertex id="array-area-ortho-vertex-A">
+                  <iep:label>A</iep:label>
+                  <iep:x>0.0</iep:x>
+                  <iep:y>11.807</iep:y>
+                </iep:vertex>
+                <iep:vertex id="array-area-ortho-vertex-B">
+                  <iep:label>B</iep:label>
+                  <iep:x>4.353</iep:x>
+                  <iep:y>0.0</iep:y>
+                </iep:vertex>
+                <iep:vertex id="array-area-ortho-vertex-C">
+                  <iep:label>C</iep:label>
+                  <iep:x>8.885</iep:x>
+                  <iep:y>1.491</iep:y>
+                </iep:vertex>
+                <iep:vertex id="array-area-ortho-vertex-D">
+                  <iep:label>D</iep:label>
+                  <iep:x>4.83</iep:x>
+                  <iep:y>13.297</iep:y>
+                </iep:vertex>
+              </iep:vertices>
+            </iep:polygon2dSceneOrthoProjection>
+            <iep:polygon2dLocal>
+              <iep:vertices>
+                <iep:vertex id="array-area-local-vertex-A">
+                  <iep:label>A</iep:label>
+                  <iep:x>12.588</iep:x>
+                  <iep:y>6.139</iep:y>
+                </iep:vertex>
+                <iep:vertex id="array-area-local-vertex-B">
+                  <iep:label>B</iep:label>
+                  <iep:x>0.055</iep:x>
+                  <iep:y>6.136</iep:y>
+                </iep:vertex>
+                <iep:vertex id="array-area-local-vertex-C">
+                  <iep:label>C</iep:label>
+                  <iep:x>0.055</iep:x>
+                  <iep:y>0.0</iep:y>
+                </iep:vertex>
+                <iep:vertex id="array-area-local-vertex-D">
+                  <iep:label>D</iep:label>
+                  <iep:x>12.587</iep:x>
+                  <iep:y>0.0</iep:y>
+                </iep:vertex>
+              </iep:vertices>
+            </iep:polygon2dLocal>
+            <iep:holes>
+              <iep:hole id="Test">
+                <iep:name>Test</iep:name>
+                <iep:polygon2dSceneOrthoProjection>
+                  <iep:vertices>
+                    <iep:vertex id="hole-vertex-ortho-A">
+                      <iep:label>hole-vertex-ortho-A</iep:label>
+                      <iep:x>1.576</iep:x>
+                      <iep:y>8.802</iep:y>
+                    </iep:vertex>
+                    <iep:vertex id="hole-vertex-ortho-B">
+                      <iep:label>hole-vertex-ortho-B</iep:label>
+                      <iep:x>1.875</iep:x>
+                      <iep:y>7.931</iep:y>
+                    </iep:vertex>
+                    <iep:vertex id="hole-vertex-ortho-C">
+                      <iep:label>hole-vertex-ortho-C</iep:label>
+                      <iep:x>2.331</iep:x>
+                      <iep:y>8.087</iep:y>
+                    </iep:vertex>
+                    <iep:vertex id="hole-vertex-ortho-D">
+                      <iep:label>hole-vertex-ortho-D</iep:label>
+                      <iep:x>2.032</iep:x>
+                      <iep:y>8.958</iep:y>
+                    </iep:vertex>
+                  </iep:vertices>
+                </iep:polygon2dSceneOrthoProjection>
+                <iep:polygon2dLocal>
+                  <iep:vertices>
+                    <iep:vertex id="hole-vertex-local-A">
+                      <iep:label>hole-vertex-local-A</iep:label>
+                      <iep:x>9.289</iep:x>
+                      <iep:y>5.672</iep:y>
+                    </iep:vertex>
+                    <iep:vertex id="hole-vertex-local-B">
+                      <iep:label>hole-vertex-local-B</iep:label>
+                      <iep:x>8.368</iep:x>
+                      <iep:y>5.672</iep:y>
+                    </iep:vertex>
+                    <iep:vertex id="hole-vertex-local-C">
+                      <iep:label>hole-vertex-local-C</iep:label>
+                      <iep:x>8.368</iep:x>
+                      <iep:y>5.07</iep:y>
+                    </iep:vertex>
+                    <iep:vertex id="hole-vertex-local-D">
+                      <iep:label>hole-vertex-local-D</iep:label>
+                      <iep:x>9.289</iep:x>
+                      <iep:y>5.07</iep:y>
+                    </iep:vertex>
+                  </iep:vertices>
+                </iep:polygon2dLocal>
+                <iep:edges>
+                  <iep:edge id="a">
+                    <iep:startIdRef>hole-vertex-local-A</iep:startIdRef>
+                    <iep:endIdRef>hole-vertex-local-B</iep:endIdRef>
+                    <iep:type>flashing</iep:type>
+                  </iep:edge>
+                  <iep:edge id="b">
+                    <iep:startIdRef>hole-vertex-local-B</iep:startIdRef>
+                    <iep:endIdRef>hole-vertex-local-C</iep:endIdRef>
+                    <iep:type>flashing</iep:type>
+                  </iep:edge>
+                  <iep:edge id="c">
+                    <iep:startIdRef>hole-vertex-local-C</iep:startIdRef>
+                    <iep:endIdRef>hole-vertex-local-D</iep:endIdRef>
+                    <iep:type>flashing</iep:type>
+                  </iep:edge>
+                  <iep:edge id="d">
+                    <iep:startIdRef>hole-vertex-local-D</iep:startIdRef>
+                    <iep:endIdRef>hole-vertex-local-A</iep:endIdRef>
+                    <iep:type>flashing</iep:type>
+                  </iep:edge>
+                </iep:edges>
+              </iep:hole>
+              <iep:hole id="ts2">
+                <iep:name>ts2</iep:name>
+                <iep:polygon2dSceneOrthoProjection>
+                  <iep:vertices>
+                    <iep:vertex id="hole-vertex-ortho-E">
+                      <iep:label>hole-vertex-ortho-E</iep:label>
+                      <iep:x>3.087</iep:x>
+                      <iep:y>4.092</iep:y>
+                    </iep:vertex>
+                    <iep:vertex id="hole-vertex-ortho-F">
+                      <iep:label>hole-vertex-ortho-F</iep:label>
+                      <iep:x>3.372</iep:x>
+                      <iep:y>3.266</iep:y>
+                    </iep:vertex>
+                    <iep:vertex id="hole-vertex-ortho-G">
+                      <iep:label>hole-vertex-ortho-G</iep:label>
+                      <iep:x>3.829</iep:x>
+                      <iep:y>3.421</iep:y>
+                    </iep:vertex>
+                    <iep:vertex id="hole-vertex-ortho-H">
+                      <iep:label>hole-vertex-ortho-H</iep:label>
+                      <iep:x>3.544</iep:x>
+                      <iep:y>4.249</iep:y>
+                    </iep:vertex>
+                  </iep:vertices>
+                </iep:polygon2dSceneOrthoProjection>
+                <iep:polygon2dLocal>
+                  <iep:vertices>
+                    <iep:vertex id="hole-vertex-local-E">
+                      <iep:label>hole-vertex-local-E</iep:label>
+                      <iep:x>4.344</iep:x>
+                      <iep:y>5.798</iep:y>
+                    </iep:vertex>
+                    <iep:vertex id="hole-vertex-local-F">
+                      <iep:label>hole-vertex-local-F</iep:label>
+                      <iep:x>3.47</iep:x>
+                      <iep:y>5.797</iep:y>
+                    </iep:vertex>
+                    <iep:vertex id="hole-vertex-local-G">
+                      <iep:label>hole-vertex-local-G</iep:label>
+                      <iep:x>3.468</iep:x>
+                      <iep:y>5.194</iep:y>
+                    </iep:vertex>
+                    <iep:vertex id="hole-vertex-local-H">
+                      <iep:label>hole-vertex-local-H</iep:label>
+                      <iep:x>4.344</iep:x>
+                      <iep:y>5.194</iep:y>
+                    </iep:vertex>
+                  </iep:vertices>
+                </iep:polygon2dLocal>
+                <iep:edges>
+                  <iep:edge id="a">
+                    <iep:startIdRef>hole-vertex-local-E</iep:startIdRef>
+                    <iep:endIdRef>hole-vertex-local-F</iep:endIdRef>
+                    <iep:type>flashing</iep:type>
+                  </iep:edge>
+                  <iep:edge id="b">
+                    <iep:startIdRef>hole-vertex-local-F</iep:startIdRef>
+                    <iep:endIdRef>hole-vertex-local-G</iep:endIdRef>
+                    <iep:type>flashing</iep:type>
+                  </iep:edge>
+                  <iep:edge id="c">
+                    <iep:startIdRef>hole-vertex-local-G</iep:startIdRef>
+                    <iep:endIdRef>hole-vertex-local-H</iep:endIdRef>
+                    <iep:type>flashing</iep:type>
+                  </iep:edge>
+                  <iep:edge id="d">
+                    <iep:startIdRef>hole-vertex-local-H</iep:startIdRef>
+                    <iep:endIdRef>hole-vertex-local-E</iep:endIdRef>
+                    <iep:type>flashing</iep:type>
+                  </iep:edge>
+                </iep:edges>
+              </iep:hole>
+              <iep:hole id="rs4">
+                <iep:name>rs4</iep:name>
+                <iep:polygon2dSceneOrthoProjection>
+                  <iep:vertices>
+                    <iep:vertex id="hole-vertex-ortho-I">
+                      <iep:label>hole-vertex-ortho-I</iep:label>
+                      <iep:x>4.877</iep:x>
+                      <iep:y>9.912</iep:y>
+                    </iep:vertex>
+                    <iep:vertex id="hole-vertex-ortho-J">
+                      <iep:label>hole-vertex-ortho-J</iep:label>
+                      <iep:x>5.199</iep:x>
+                      <iep:y>8.994</iep:y>
+                    </iep:vertex>
+                    <iep:vertex id="hole-vertex-ortho-K">
+                      <iep:label>hole-vertex-ortho-K</iep:label>
+                      <iep:x>5.664</iep:x>
+                      <iep:y>9.157</iep:y>
+                    </iep:vertex>
+                    <iep:vertex id="hole-vertex-ortho-L">
+                      <iep:label>hole-vertex-ortho-L</iep:label>
+                      <iep:x>5.349</iep:x>
+                      <iep:y>10.074</iep:y>
+                    </iep:vertex>
+                  </iep:vertices>
+                </iep:polygon2dSceneOrthoProjection>
+                <iep:polygon2dLocal>
+                  <iep:vertices>
+                    <iep:vertex id="hole-vertex-local-I">
+                      <iep:label>hole-vertex-local-I</iep:label>
+                      <iep:x>9.266</iep:x>
+                      <iep:y>1.319</iep:y>
+                    </iep:vertex>
+                    <iep:vertex id="hole-vertex-local-J">
+                      <iep:label>hole-vertex-local-J</iep:label>
+                      <iep:x>8.293</iep:x>
+                      <iep:y>1.311</iep:y>
+                    </iep:vertex>
+                    <iep:vertex id="hole-vertex-local-K">
+                      <iep:label>hole-vertex-local-K</iep:label>
+                      <iep:x>8.297</iep:x>
+                      <iep:y>0.695</iep:y>
+                    </iep:vertex>
+                    <iep:vertex id="hole-vertex-local-L">
+                      <iep:label>hole-vertex-local-L</iep:label>
+                      <iep:x>9.267</iep:x>
+                      <iep:y>0.695</iep:y>
+                    </iep:vertex>
+                  </iep:vertices>
+                </iep:polygon2dLocal>
+                <iep:edges>
+                  <iep:edge id="a">
+                    <iep:startIdRef>hole-vertex-local-I</iep:startIdRef>
+                    <iep:endIdRef>hole-vertex-local-J</iep:endIdRef>
+                    <iep:type>flashing</iep:type>
+                  </iep:edge>
+                  <iep:edge id="b">
+                    <iep:startIdRef>hole-vertex-local-J</iep:startIdRef>
+                    <iep:endIdRef>hole-vertex-local-K</iep:endIdRef>
+                    <iep:type>flashing</iep:type>
+                  </iep:edge>
+                  <iep:edge id="c">
+                    <iep:startIdRef>hole-vertex-local-K</iep:startIdRef>
+                    <iep:endIdRef>hole-vertex-local-L</iep:endIdRef>
+                    <iep:type>flashing</iep:type>
+                  </iep:edge>
+                  <iep:edge id="d">
+                    <iep:startIdRef>hole-vertex-local-L</iep:startIdRef>
+                    <iep:endIdRef>hole-vertex-local-I</iep:endIdRef>
+                    <iep:type>flashing</iep:type>
+                  </iep:edge>
+                </iep:edges>
+              </iep:hole>
+              <iep:hole id="rs3">
+                <iep:name>rs3</iep:name>
+                <iep:polygon2dSceneOrthoProjection>
+                  <iep:vertices>
+                    <iep:vertex id="hole-vertex-ortho-M">
+                      <iep:label>hole-vertex-ortho-M</iep:label>
+                      <iep:x>6.417</iep:x>
+                      <iep:y>5.383</iep:y>
+                    </iep:vertex>
+                    <iep:vertex id="hole-vertex-ortho-N">
+                      <iep:label>hole-vertex-ortho-N</iep:label>
+                      <iep:x>6.657</iep:x>
+                      <iep:y>4.526</iep:y>
+                    </iep:vertex>
+                    <iep:vertex id="hole-vertex-ortho-O">
+                      <iep:label>hole-vertex-ortho-O</iep:label>
+                      <iep:x>7.079</iep:x>
+                      <iep:y>4.593</iep:y>
+                    </iep:vertex>
+                    <iep:vertex id="hole-vertex-ortho-P">
+                      <iep:label>hole-vertex-ortho-P</iep:label>
+                      <iep:x>6.837</iep:x>
+                      <iep:y>5.511</iep:y>
+                    </iep:vertex>
+                  </iep:vertices>
+                </iep:polygon2dSceneOrthoProjection>
+                <iep:polygon2dLocal>
+                  <iep:vertices>
+                    <iep:vertex id="hole-vertex-local-M">
+                      <iep:label>hole-vertex-local-M</iep:label>
+                      <iep:x>4.483</iep:x>
+                      <iep:y>1.338</iep:y>
+                    </iep:vertex>
+                    <iep:vertex id="hole-vertex-local-N">
+                      <iep:label>hole-vertex-local-N</iep:label>
+                      <iep:x>3.594</iep:x>
+                      <iep:y>1.401</iep:y>
+                    </iep:vertex>
+                    <iep:vertex id="hole-vertex-local-O">
+                      <iep:label>hole-vertex-local-O</iep:label>
+                      <iep:x>3.521</iep:x>
+                      <iep:y>0.875</iep:y>
+                    </iep:vertex>
+                    <iep:vertex id="hole-vertex-local-P">
+                      <iep:label>hole-vertex-local-P</iep:label>
+                      <iep:x>4.468</iep:x>
+                      <iep:y>0.789</iep:y>
+                    </iep:vertex>
+                  </iep:vertices>
+                </iep:polygon2dLocal>
+                <iep:edges>
+                  <iep:edge id="a">
+                    <iep:startIdRef>hole-vertex-local-M</iep:startIdRef>
+                    <iep:endIdRef>hole-vertex-local-N</iep:endIdRef>
+                    <iep:type>flashing</iep:type>
+                  </iep:edge>
+                  <iep:edge id="b">
+                    <iep:startIdRef>hole-vertex-local-N</iep:startIdRef>
+                    <iep:endIdRef>hole-vertex-local-O</iep:endIdRef>
+                    <iep:type>flashing</iep:type>
+                  </iep:edge>
+                  <iep:edge id="c">
+                    <iep:startIdRef>hole-vertex-local-O</iep:startIdRef>
+                    <iep:endIdRef>hole-vertex-local-P</iep:endIdRef>
+                    <iep:type>flashing</iep:type>
+                  </iep:edge>
+                  <iep:edge id="d">
+                    <iep:startIdRef>hole-vertex-local-P</iep:startIdRef>
+                    <iep:endIdRef>hole-vertex-local-M</iep:endIdRef>
+                    <iep:type>flashing</iep:type>
+                  </iep:edge>
+                </iep:edges>
+              </iep:hole>
+            </iep:holes>
+            <iep:meanRoofHeight unit="Meters">7.99043</iep:meanRoofHeight>
+            <iep:surfaceType>COMPOSITION_SHINGLE</iep:surfaceType>
+            <iep:surfaceLayers>1</iep:surfaceLayers>
+            <iep:deckSheathing>ORIENTED_STRAND_BOARD_OR_PLYWOOD_GT_OR_EQ2_7_16_INCH_THICK</iep:deckSheathing>
+            <iep:edges>
+              <iep:edge id="edge-a">
+                <iep:startIdRef>A</iep:startIdRef>
+                <iep:endIdRef>B</iep:endIdRef>
+                <iep:type>ridge</iep:type>
+              </iep:edge>
+              <iep:edge id="edge-b">
+                <iep:startIdRef>B</iep:startIdRef>
+                <iep:endIdRef>C</iep:endIdRef>
+                <iep:type>rake</iep:type>
+              </iep:edge>
+              <iep:edge id="edge-c">
+                <iep:startIdRef>C</iep:startIdRef>
+                <iep:endIdRef>D</iep:endIdRef>
+                <iep:type>eave</iep:type>
+              </iep:edge>
+              <iep:edge id="edge-d">
+                <iep:startIdRef>D</iep:startIdRef>
+                <iep:endIdRef>A</iep:endIdRef>
+                <iep:type>rake</iep:type>
+              </iep:edge>
+            </iep:edges>
+            <iep:structure id="null-225517">
+              <iep:name>aec59cd7-cfc8-48ed-bb7f-75d1a135c4c6</iep:name>
+              <iep:constructionStyle>MANUFACTURED_TRUSS</iep:constructionStyle>
+              <iep:rafterCrossSection>2X4_POST_1960</iep:rafterCrossSection>
+              <iep:rafterSpacing>0.6096</iep:rafterSpacing>
+            </iep:structure>
+            <iep:solarAccessPercentage>
+              <iep:solarAccessAnnual>100</iep:solarAccessAnnual>
+            </iep:solarAccessPercentage>
+          </iep:roofFace>
+        </iep:roofFaces>
+      </iep:roof>
+      <iep:useAndOccupancyClassification>R3</iep:useAndOccupancyClassification>
+    </iep:building>
+  </iep:buildings>
+  <iep:electricDistributionSystems>
+    <iep:electricDistributionSystem>
+      <iep:electricalPanelDefinitions>
+        <iep:electricalPanelDefinition id="ELECTRICAL_PANEL-79487">
+          <iep:manufacturer>Generic Manufacturer</iep:manufacturer>
+          <iep:modelNumber>Generic Model</iep:modelNumber>
+          <iep:ratedCurrent>200</iep:ratedCurrent>
+        </iep:electricalPanelDefinition>
+      </iep:electricalPanelDefinitions>
+      <iep:electricalPanels>
+        <iep:electricalPanel id="ELECTRICAL_PANEL-79487" equipmentDefinitionIdRef="ELECTRICAL_PANEL-79487">
+          <iep:name>MSP</iep:name>
+          <iep:mainBreaker>
+            <iep:currentRating>200</iep:currentRating>
+          </iep:mainBreaker>
+        </iep:electricalPanel>
+      </iep:electricalPanels>
+      <iep:electricServiceEntryEquipmentIdRef>ELECTRICAL_PANEL-79487</iep:electricServiceEntryEquipmentIdRef>
+    </iep:electricDistributionSystem>
+  </iep:electricDistributionSystems>
+  <iep:utilityServices>
+    <iep:utilityService id="null-90">
+      <iep:applicationIds>
+        <iep:applicationId>
+          <iep:idValue>90</iep:idValue>
+          <iep:idSource>SolarDesignTool</iep:idSource>
+        </iep:applicationId>
+      </iep:applicationIds>
+      <iep:utilityId>14328</iep:utilityId>
+      <iep:utilityName>Pacific Gas &amp; Electric Co</iep:utilityName>
+      <iep:utilityMeterId>34578345</iep:utilityMeterId>
+    </iep:utilityService>
+  </iep:utilityServices>
+</iep:Project>
