@@ -427,6 +427,20 @@ Can be used for multiple use cases where data is passed between parties/tools, i
 Included reference to Utility Service here instead of in Building since Project encapsulates building</xs:documentation>
 		</xs:annotation>
 		<xs:sequence>
+			<xs:element minOccurs="0" name="applicationIds">
+				<xs:annotation>
+					<xs:documentation>This element holds each vendor's identifiers for this project. </xs:documentation>
+				</xs:annotation>
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="applicationId" type="applicationId" minOccurs="1" maxOccurs="unbounded">
+							<xs:annotation>
+								<xs:documentation>ID of the object represented by this XML within a corresponding software application. Used by the software to identify its corresponding record within the application's database. AKA a primary key. Important if the data is passed from one application back to an originating application, for example.</xs:documentation>
+							</xs:annotation>
+						</xs:element>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
 			<xs:element name="name" type="xs:string" minOccurs="0" maxOccurs="1">
 				<xs:annotation>
 					<xs:documentation>This is a simple descriptive name</xs:documentation>
@@ -440,21 +454,6 @@ Included reference to Utility Service here instead of in Building since Project 
 			<xs:element name="projectClassification" type="projectClassificationEnum" minOccurs="0"
 				maxOccurs="1"/>
 			<xs:element minOccurs="0" name="changeLog" type="changeLog" maxOccurs="1"/>
-			<xs:element minOccurs="0" name="applicationReferenceIds">
-				<xs:annotation>
-					<xs:documentation>This element holds each vendor's identifiers for this project. </xs:documentation>
-				</xs:annotation>
-				<xs:complexType>
-					<xs:sequence>
-						<xs:element maxOccurs="unbounded" minOccurs="1"
-							name="applicationReferenceId" type="applicationId">
-							<xs:annotation>
-								<xs:documentation>ID of the object represented by this XML rewithin a  corresponding software application. Used by the software to identify its corresponding record within the application's database. AKA a primary key. Important if the data is passed from one application back to an originating application, for example.</xs:documentation>
-							</xs:annotation>
-						</xs:element>
-					</xs:sequence>
-				</xs:complexType>
-			</xs:element>
 			<xs:element minOccurs="0" name="assignedTo">
 				<xs:annotation>
 					<xs:documentation>Element identifies the assigned owner of this project, typically an employee. Use when pushing a project into another system and assigning it to a user. </xs:documentation>
