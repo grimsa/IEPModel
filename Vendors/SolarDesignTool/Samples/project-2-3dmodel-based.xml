@@ -188,34 +188,36 @@
                 </iep:vertex>
               </iep:vertices>
             </iep:polygon2dSceneOrthoProjection>
-            <iep:polygon2dLocal>
-              <iep:vertices>
-                <iep:vertex id="array-area-local-vertex-A">
-                  <iep:label>A</iep:label>
-                  <iep:x>0.0</iep:x>
-                  <iep:y>7.159</iep:y>
-                </iep:vertex>
-                <iep:vertex id="array-area-local-vertex-B">
-                  <iep:label>B</iep:label>
-                  <iep:x>0.0</iep:x>
-                  <iep:y>0.0</iep:y>
-                </iep:vertex>
-                <iep:vertex id="array-area-local-vertex-C">
-                  <iep:label>C</iep:label>
-                  <iep:x>11.497</iep:x>
-                  <iep:y>0.0</iep:y>
-                </iep:vertex>
-                <iep:vertex id="array-area-local-vertex-D">
-                  <iep:label>D</iep:label>
-                  <iep:x>11.497</iep:x>
-                  <iep:y>7.159</iep:y>
-                </iep:vertex>
-              </iep:vertices>
-            </iep:polygon2dLocal>
+            <iep:roofAreaPolygon2dLocal>
+              <iep:polygon2dLocal>
+                <iep:vertices>
+                  <iep:vertex id="array-area-local-vertex-A">
+                    <iep:label>A</iep:label>
+                    <iep:x>0.0</iep:x>
+                    <iep:y>7.159</iep:y>
+                  </iep:vertex>
+                  <iep:vertex id="array-area-local-vertex-B">
+                    <iep:label>B</iep:label>
+                    <iep:x>0.0</iep:x>
+                    <iep:y>0.0</iep:y>
+                  </iep:vertex>
+                  <iep:vertex id="array-area-local-vertex-C">
+                    <iep:label>C</iep:label>
+                    <iep:x>11.497</iep:x>
+                    <iep:y>0.0</iep:y>
+                  </iep:vertex>
+                  <iep:vertex id="array-area-local-vertex-D">
+                    <iep:label>D</iep:label>
+                    <iep:x>11.497</iep:x>
+                    <iep:y>7.159</iep:y>
+                  </iep:vertex>
+                </iep:vertices>
+              </iep:polygon2dLocal>
+            </iep:roofAreaPolygon2dLocal>
             <iep:holes>
               <iep:hole id="F14">
                 <iep:name>F14</iep:name>
-                <iep:polygon2dSceneOrthoProjection>
+                <iep:polygon2dOrthoProjection>
                   <iep:vertices>
                     <iep:vertex id="hole-vertex-ortho-A">
                       <iep:label>hole-vertex-ortho-A</iep:label>
@@ -238,7 +240,7 @@
                       <iep:y>9.796</iep:y>
                     </iep:vertex>
                   </iep:vertices>
-                </iep:polygon2dSceneOrthoProjection>
+                </iep:polygon2dOrthoProjection>
                 <iep:polygon2dLocal>
                   <iep:vertices>
                     <iep:vertex id="hole-vertex-local-A">
@@ -288,7 +290,7 @@
               </iep:hole>
               <iep:hole id="F13">
                 <iep:name>F13</iep:name>
-                <iep:polygon2dSceneOrthoProjection>
+                <iep:polygon2dOrthoProjection>
                   <iep:vertices>
                     <iep:vertex id="hole-vertex-ortho-E">
                       <iep:label>hole-vertex-ortho-E</iep:label>
@@ -311,7 +313,7 @@
                       <iep:y>9.256</iep:y>
                     </iep:vertex>
                   </iep:vertices>
-                </iep:polygon2dSceneOrthoProjection>
+                </iep:polygon2dOrthoProjection>
                 <iep:polygon2dLocal>
                   <iep:vertices>
                     <iep:vertex id="hole-vertex-local-E">
@@ -361,7 +363,7 @@
               </iep:hole>
               <iep:hole id="F9">
                 <iep:name>F9</iep:name>
-                <iep:polygon2dSceneOrthoProjection>
+                <iep:polygon2dOrthoProjection>
                   <iep:vertices>
                     <iep:vertex id="hole-vertex-ortho-I">
                       <iep:label>hole-vertex-ortho-I</iep:label>
@@ -384,7 +386,7 @@
                       <iep:y>3.8</iep:y>
                     </iep:vertex>
                   </iep:vertices>
-                </iep:polygon2dSceneOrthoProjection>
+                </iep:polygon2dOrthoProjection>
                 <iep:polygon2dLocal>
                   <iep:vertices>
                     <iep:vertex id="hole-vertex-local-I">
@@ -434,7 +436,7 @@
               </iep:hole>
               <iep:hole id="F15">
                 <iep:name>F15</iep:name>
-                <iep:polygon2dSceneOrthoProjection>
+                <iep:polygon2dOrthoProjection>
                   <iep:vertices>
                     <iep:vertex id="hole-vertex-ortho-M">
                       <iep:label>hole-vertex-ortho-M</iep:label>
@@ -457,7 +459,7 @@
                       <iep:y>5.705</iep:y>
                     </iep:vertex>
                   </iep:vertices>
-                </iep:polygon2dSceneOrthoProjection>
+                </iep:polygon2dOrthoProjection>
                 <iep:polygon2dLocal>
                   <iep:vertices>
                     <iep:vertex id="hole-vertex-local-M">
@@ -507,7 +509,7 @@
               </iep:hole>
               <iep:hole id="F11">
                 <iep:name>F11</iep:name>
-                <iep:polygon2dSceneOrthoProjection>
+                <iep:polygon2dOrthoProjection>
                   <iep:vertices>
                     <iep:vertex id="hole-vertex-ortho-Q">
                       <iep:label>hole-vertex-ortho-Q</iep:label>
@@ -530,7 +532,7 @@
                       <iep:y>4.917</iep:y>
                     </iep:vertex>
                   </iep:vertices>
-                </iep:polygon2dSceneOrthoProjection>
+                </iep:polygon2dOrthoProjection>
                 <iep:polygon2dLocal>
                   <iep:vertices>
                     <iep:vertex id="hole-vertex-local-Q">
@@ -580,7 +582,7 @@
               </iep:hole>
               <iep:hole id="F12">
                 <iep:name>F12</iep:name>
-                <iep:polygon2dSceneOrthoProjection>
+                <iep:polygon2dOrthoProjection>
                   <iep:vertices>
                     <iep:vertex id="hole-vertex-ortho-U">
                       <iep:label>hole-vertex-ortho-U</iep:label>
@@ -603,7 +605,7 @@
                       <iep:y>8.637</iep:y>
                     </iep:vertex>
                   </iep:vertices>
-                </iep:polygon2dSceneOrthoProjection>
+                </iep:polygon2dOrthoProjection>
                 <iep:polygon2dLocal>
                   <iep:vertices>
                     <iep:vertex id="hole-vertex-local-U">
@@ -653,7 +655,7 @@
               </iep:hole>
               <iep:hole id="F10">
                 <iep:name>F10</iep:name>
-                <iep:polygon2dSceneOrthoProjection>
+                <iep:polygon2dOrthoProjection>
                   <iep:vertices>
                     <iep:vertex id="hole-vertex-ortho-Y">
                       <iep:label>hole-vertex-ortho-Y</iep:label>
@@ -676,7 +678,7 @@
                       <iep:y>2.933</iep:y>
                     </iep:vertex>
                   </iep:vertices>
-                </iep:polygon2dSceneOrthoProjection>
+                </iep:polygon2dOrthoProjection>
                 <iep:polygon2dLocal>
                   <iep:vertices>
                     <iep:vertex id="hole-vertex-local-Y">
@@ -754,11 +756,11 @@
             <iep:structure id="null-225531">
               <iep:name>e1449c62-70cc-4693-9547-a9737964d187</iep:name>
               <iep:constructionStyle>MANUFACTURED_TRUSS</iep:constructionStyle>
-              <iep:rafterCrossSection>2X4_POST_1960</iep:rafterCrossSection>
+              <iep:rafterCrossSection>2x4_POST_1960</iep:rafterCrossSection>
               <iep:rafterSpacing>0.6096</iep:rafterSpacing>
             </iep:structure>
             <iep:solarAccessPercentage>
-              <iep:solarAccessAnnual>97</iep:solarAccessAnnual>
+              <solarAccessAnnual>97</solarAccessAnnual>
             </iep:solarAccessPercentage>
           </iep:roofFace>
           <iep:roofFace id="arraybase-255073">
@@ -790,34 +792,36 @@
                 </iep:vertex>
               </iep:vertices>
             </iep:polygon2dSceneOrthoProjection>
-            <iep:polygon2dLocal>
-              <iep:vertices>
-                <iep:vertex id="array-area-local-vertex-E">
-                  <iep:label>E</iep:label>
-                  <iep:x>11.497</iep:x>
-                  <iep:y>7.159</iep:y>
-                </iep:vertex>
-                <iep:vertex id="array-area-local-vertex-F">
-                  <iep:label>F</iep:label>
-                  <iep:x>0.0</iep:x>
-                  <iep:y>7.159</iep:y>
-                </iep:vertex>
-                <iep:vertex id="array-area-local-vertex-G">
-                  <iep:label>G</iep:label>
-                  <iep:x>0.0</iep:x>
-                  <iep:y>0.0</iep:y>
-                </iep:vertex>
-                <iep:vertex id="array-area-local-vertex-H">
-                  <iep:label>H</iep:label>
-                  <iep:x>11.497</iep:x>
-                  <iep:y>0.0</iep:y>
-                </iep:vertex>
-              </iep:vertices>
-            </iep:polygon2dLocal>
+            <iep:roofAreaPolygon2dLocal>
+              <iep:polygon2dLocal>
+                <iep:vertices>
+                  <iep:vertex id="array-area-local-vertex-E">
+                    <iep:label>E</iep:label>
+                    <iep:x>11.497</iep:x>
+                    <iep:y>7.159</iep:y>
+                  </iep:vertex>
+                  <iep:vertex id="array-area-local-vertex-F">
+                    <iep:label>F</iep:label>
+                    <iep:x>0.0</iep:x>
+                    <iep:y>7.159</iep:y>
+                  </iep:vertex>
+                  <iep:vertex id="array-area-local-vertex-G">
+                    <iep:label>G</iep:label>
+                    <iep:x>0.0</iep:x>
+                    <iep:y>0.0</iep:y>
+                  </iep:vertex>
+                  <iep:vertex id="array-area-local-vertex-H">
+                    <iep:label>H</iep:label>
+                    <iep:x>11.497</iep:x>
+                    <iep:y>0.0</iep:y>
+                  </iep:vertex>
+                </iep:vertices>
+              </iep:polygon2dLocal>
+            </iep:roofAreaPolygon2dLocal>
             <iep:holes>
               <iep:hole id="F8">
                 <iep:name>F8</iep:name>
-                <iep:polygon2dSceneOrthoProjection>
+                <iep:polygon2dOrthoProjection>
                   <iep:vertices>
                     <iep:vertex id="hole-vertex-ortho-AC">
                       <iep:label>hole-vertex-ortho-AC</iep:label>
@@ -840,7 +844,7 @@
                       <iep:y>4.393</iep:y>
                     </iep:vertex>
                   </iep:vertices>
-                </iep:polygon2dSceneOrthoProjection>
+                </iep:polygon2dOrthoProjection>
                 <iep:polygon2dLocal>
                   <iep:vertices>
                     <iep:vertex id="hole-vertex-local-AC">
@@ -890,7 +894,7 @@
               </iep:hole>
               <iep:hole id="F5">
                 <iep:name>F5</iep:name>
-                <iep:polygon2dSceneOrthoProjection>
+                <iep:polygon2dOrthoProjection>
                   <iep:vertices>
                     <iep:vertex id="hole-vertex-ortho-AG">
                       <iep:label>hole-vertex-ortho-AG</iep:label>
@@ -913,7 +917,7 @@
                       <iep:y>7.649</iep:y>
                     </iep:vertex>
                   </iep:vertices>
-                </iep:polygon2dSceneOrthoProjection>
+                </iep:polygon2dOrthoProjection>
                 <iep:polygon2dLocal>
                   <iep:vertices>
                     <iep:vertex id="hole-vertex-local-AG">
@@ -963,7 +967,7 @@
               </iep:hole>
               <iep:hole id="F3">
                 <iep:name>F3</iep:name>
-                <iep:polygon2dSceneOrthoProjection>
+                <iep:polygon2dOrthoProjection>
                   <iep:vertices>
                     <iep:vertex id="hole-vertex-ortho-AK">
                       <iep:label>hole-vertex-ortho-AK</iep:label>
@@ -986,7 +990,7 @@
                       <iep:y>8.867</iep:y>
                     </iep:vertex>
                   </iep:vertices>
-                </iep:polygon2dSceneOrthoProjection>
+                </iep:polygon2dOrthoProjection>
                 <iep:polygon2dLocal>
                   <iep:vertices>
                     <iep:vertex id="hole-vertex-local-AK">
@@ -1036,7 +1040,7 @@
               </iep:hole>
               <iep:hole id="F4">
                 <iep:name>F4</iep:name>
-                <iep:polygon2dSceneOrthoProjection>
+                <iep:polygon2dOrthoProjection>
                   <iep:vertices>
                     <iep:vertex id="hole-vertex-ortho-AO">
                       <iep:label>hole-vertex-ortho-AO</iep:label>
@@ -1059,7 +1063,7 @@
                       <iep:y>7.875</iep:y>
                     </iep:vertex>
                   </iep:vertices>
-                </iep:polygon2dSceneOrthoProjection>
+                </iep:polygon2dOrthoProjection>
                 <iep:polygon2dLocal>
                   <iep:vertices>
                     <iep:vertex id="hole-vertex-local-AO">
@@ -1109,7 +1113,7 @@
               </iep:hole>
               <iep:hole id="F6">
                 <iep:name>F6</iep:name>
-                <iep:polygon2dSceneOrthoProjection>
+                <iep:polygon2dOrthoProjection>
                   <iep:vertices>
                     <iep:vertex id="hole-vertex-ortho-AS">
                       <iep:label>hole-vertex-ortho-AS</iep:label>
@@ -1132,7 +1136,7 @@
                       <iep:y>3.627</iep:y>
                     </iep:vertex>
                   </iep:vertices>
-                </iep:polygon2dSceneOrthoProjection>
+                </iep:polygon2dOrthoProjection>
                 <iep:polygon2dLocal>
                   <iep:vertices>
                     <iep:vertex id="hole-vertex-local-AS">
@@ -1182,7 +1186,7 @@
               </iep:hole>
               <iep:hole id="F7">
                 <iep:name>F7</iep:name>
-                <iep:polygon2dSceneOrthoProjection>
+                <iep:polygon2dOrthoProjection>
                   <iep:vertices>
                     <iep:vertex id="hole-vertex-ortho-AW">
                       <iep:label>hole-vertex-ortho-AW</iep:label>
@@ -1205,7 +1209,7 @@
                       <iep:y>4.619</iep:y>
                     </iep:vertex>
                   </iep:vertices>
-                </iep:polygon2dSceneOrthoProjection>
+                </iep:polygon2dOrthoProjection>
                 <iep:polygon2dLocal>
                   <iep:vertices>
                     <iep:vertex id="hole-vertex-local-AW">
@@ -1283,11 +1287,11 @@
             <iep:structure id="null-225530">
               <iep:name>f78488ad-0491-4e1d-9a39-f83662561089</iep:name>
               <iep:constructionStyle>MANUFACTURED_TRUSS</iep:constructionStyle>
-              <iep:rafterCrossSection>2X4_POST_1960</iep:rafterCrossSection>
+              <iep:rafterCrossSection>2x4_POST_1960</iep:rafterCrossSection>
               <iep:rafterSpacing>0.6096</iep:rafterSpacing>
             </iep:structure>
             <iep:solarAccessPercentage>
-              <iep:solarAccessAnnual>97</iep:solarAccessAnnual>
+              <solarAccessAnnual>97</solarAccessAnnual>
             </iep:solarAccessPercentage>
           </iep:roofFace>
         </iep:roofFaces>
