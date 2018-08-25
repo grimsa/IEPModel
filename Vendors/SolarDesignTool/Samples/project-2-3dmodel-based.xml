@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iep:Project xmlns:iep="http://www.iepmodel.net" id="sdt-92538">
+<iep:project id="sdt-92538"
+             xmlns:iep="http://www.iepmodel.net"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://www.iepmodel.net ../../../Project.xsd">
   <iep:applicationIds>
     <iep:applicationId>
       <iep:idValue>92538</iep:idValue>
@@ -24,8 +27,8 @@
           </iep:phoneNumbers>
           <iep:emailAddresses>
             <iep:emailAddress>
-              <iep:Address>dmitchell@solardesigntool.com</iep:Address>
-              <iep:Primary>true</iep:Primary>
+              <iep:address>dmitchell@solardesigntool.com</iep:address>
+              <iep:primary>true</iep:primary>
             </iep:emailAddress>
           </iep:emailAddresses>
         </iep:contact>
@@ -164,6 +167,13 @@
             <iep:azimuth>97.2</iep:azimuth>
             <iep:slope>57.0</iep:slope>
             <iep:area>78.4</iep:area>
+            <iep:solarAccessPercentage>
+              <solarAccessAnnual>97</solarAccessAnnual>
+            </iep:solarAccessPercentage>
+            <iep:meanHeight unit="METERS">6.0012</iep:meanHeight>
+            <iep:surfaceType>COMPOSITION_SHINGLE</iep:surfaceType>
+            <iep:surfaceLayers>1</iep:surfaceLayers>
+            <iep:deckSheathing>ORIENTED_STRAND_BOARD_OR_PLYWOOD_GT_OR_EQ2_7_16_INCH_THICK</iep:deckSheathing>
             <iep:polygon2dSceneOrthoProjection>
               <iep:vertices>
                 <iep:vertex id="array-area-ortho-vertex-A">
@@ -727,10 +737,6 @@
                 </iep:edges>
               </iep:hole>
             </iep:holes>
-            <iep:meanRoofHeight unit="Meters">6.0012</iep:meanRoofHeight>
-            <iep:surfaceType>COMPOSITION_SHINGLE</iep:surfaceType>
-            <iep:surfaceLayers>1</iep:surfaceLayers>
-            <iep:deckSheathing>ORIENTED_STRAND_BOARD_OR_PLYWOOD_GT_OR_EQ2_7_16_INCH_THICK</iep:deckSheathing>
             <iep:edges>
               <iep:edge id="edge-a">
                 <iep:startIdRef>array-area-local-vertex-A</iep:startIdRef>
@@ -753,21 +759,25 @@
                 <iep:type>ridge</iep:type>
               </iep:edge>
             </iep:edges>
-            <iep:structure id="null-225531">
+            <structure id="null-225531">
               <iep:name>e1449c62-70cc-4693-9547-a9737964d187</iep:name>
               <iep:constructionStyle>MANUFACTURED_TRUSS</iep:constructionStyle>
               <iep:rafterCrossSection>2x4_POST_1960</iep:rafterCrossSection>
               <iep:rafterSpacing>0.6096</iep:rafterSpacing>
-            </iep:structure>
-            <iep:solarAccessPercentage>
-              <solarAccessAnnual>97</solarAccessAnnual>
-            </iep:solarAccessPercentage>
+            </structure>
           </iep:roofFace>
           <iep:roofFace id="arraybase-255073">
             <iep:name>F2</iep:name>
             <iep:azimuth>277.2</iep:azimuth>
             <iep:slope>57.0</iep:slope>
             <iep:area>78.7</iep:area>
+            <iep:solarAccessPercentage>
+              <solarAccessAnnual>97</solarAccessAnnual>
+            </iep:solarAccessPercentage>
+            <iep:meanHeight unit="METERS">6.0012</iep:meanHeight>
+            <iep:surfaceType>COMPOSITION_SHINGLE</iep:surfaceType>
+            <iep:surfaceLayers>1</iep:surfaceLayers>
+            <iep:deckSheathing>ORIENTED_STRAND_BOARD_OR_PLYWOOD_GT_OR_EQ2_7_16_INCH_THICK</iep:deckSheathing>
             <iep:polygon2dSceneOrthoProjection>
               <iep:vertices>
                 <iep:vertex id="array-area-ortho-vertex-E">
@@ -1258,10 +1268,6 @@
                 </iep:edges>
               </iep:hole>
             </iep:holes>
-            <iep:meanRoofHeight unit="Meters">6.0012</iep:meanRoofHeight>
-            <iep:surfaceType>COMPOSITION_SHINGLE</iep:surfaceType>
-            <iep:surfaceLayers>1</iep:surfaceLayers>
-            <iep:deckSheathing>ORIENTED_STRAND_BOARD_OR_PLYWOOD_GT_OR_EQ2_7_16_INCH_THICK</iep:deckSheathing>
             <iep:edges>
               <iep:edge id="edge-e">
                 <iep:startIdRef>array-area-local-vertex-E</iep:startIdRef>
@@ -1284,15 +1290,12 @@
                 <iep:type>rake</iep:type>
               </iep:edge>
             </iep:edges>
-            <iep:structure id="null-225530">
+            <structure id="null-225530">
               <iep:name>f78488ad-0491-4e1d-9a39-f83662561089</iep:name>
               <iep:constructionStyle>MANUFACTURED_TRUSS</iep:constructionStyle>
               <iep:rafterCrossSection>2x4_POST_1960</iep:rafterCrossSection>
               <iep:rafterSpacing>0.6096</iep:rafterSpacing>
-            </iep:structure>
-            <iep:solarAccessPercentage>
-              <solarAccessAnnual>97</solarAccessAnnual>
-            </iep:solarAccessPercentage>
+            </structure>
           </iep:roofFace>
         </iep:roofFaces>
       </iep:roof>
@@ -1332,4 +1335,4 @@
       <iep:utilityMeterId>345345</iep:utilityMeterId>
     </iep:utilityService>
   </iep:utilityServices>
-</iep:Project>
+</iep:project>

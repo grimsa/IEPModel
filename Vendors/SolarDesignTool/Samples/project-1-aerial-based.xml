@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iep:Project xmlns:iep="http://www.iepmodel.net" id="sdt-92525">
+<iep:project id="sdt-92525"
+             xmlns:iep="http://www.iepmodel.net"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://www.iepmodel.net ../../../Project.xsd">
   <iep:applicationIds>
     <iep:applicationId>
       <iep:idValue>92525</iep:idValue>
@@ -153,6 +156,13 @@
             <iep:azimuth>71.0</iep:azimuth>
             <iep:slope>36.9</iep:slope>
             <iep:area>74.7</iep:area>
+            <iep:solarAccessPercentage>
+              <solarAccessAnnual>1</solarAccessAnnual>
+            </iep:solarAccessPercentage>
+            <iep:meanHeight unit="METERS">7.99043</iep:meanHeight>
+            <iep:surfaceType>COMPOSITION_SHINGLE</iep:surfaceType>
+            <iep:surfaceLayers>1</iep:surfaceLayers>
+            <iep:deckSheathing>ORIENTED_STRAND_BOARD_OR_PLYWOOD_GT_OR_EQ2_7_16_INCH_THICK</iep:deckSheathing>
             <iep:polygon2dSceneOrthoProjection>
               <iep:vertices>
                 <iep:vertex id="array-area-ortho-vertex-A">
@@ -497,10 +507,6 @@
                 </iep:edges>
               </iep:hole>
             </iep:holes>
-            <iep:meanRoofHeight unit="Meters">7.99043</iep:meanRoofHeight>
-            <iep:surfaceType>COMPOSITION_SHINGLE</iep:surfaceType>
-            <iep:surfaceLayers>1</iep:surfaceLayers>
-            <iep:deckSheathing>ORIENTED_STRAND_BOARD_OR_PLYWOOD_GT_OR_EQ2_7_16_INCH_THICK</iep:deckSheathing>
             <iep:edges>
               <iep:edge id="edge-a">
                 <iep:startIdRef>array-area-local-vertex-A</iep:startIdRef>
@@ -523,15 +529,12 @@
                 <iep:type>rake</iep:type>
               </iep:edge>
             </iep:edges>
-            <iep:structure id="null-225517">
+            <structure id="null-225517">
               <iep:name>aec59cd7-cfc8-48ed-bb7f-75d1a135c4c6</iep:name>
               <iep:constructionStyle>MANUFACTURED_TRUSS</iep:constructionStyle>
               <iep:rafterCrossSection>2x4_POST_1960</iep:rafterCrossSection>
               <iep:rafterSpacing>0.6096</iep:rafterSpacing>
-            </iep:structure>
-            <iep:solarAccessPercentage>
-              <solarAccessAnnual>1</solarAccessAnnual>
-            </iep:solarAccessPercentage>
+            </structure>
           </iep:roofFace>
         </iep:roofFaces>
       </iep:roof>
@@ -571,4 +574,4 @@
       <iep:utilityMeterId>34578345</iep:utilityMeterId>
     </iep:utilityService>
   </iep:utilityServices>
-</iep:Project>
+</iep:project>
