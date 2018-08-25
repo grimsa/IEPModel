@@ -377,6 +377,11 @@ For example:
 			<xs:documentation>Describes a roof face's structural attributes important to knowing whether the roof can support the additional weight of added equipment, such as solar panels.</xs:documentation>
 		</xs:annotation>
 		<xs:sequence>
+			<xs:element name="constructionStyle" type="roofConstructionEnum" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Describes the roof structure design.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
 			<xs:element maxOccurs="1" minOccurs="0" name="structuralSupportType" type="xs:string">
 				<xs:annotation>
 					<xs:documentation>Type of structural support for the roofing deck. Example values might include: "Wood 2byX, Fir#2 Or Better", "Wood 2byX", "Wood I-beam", "Steel I-beam", "Steel C-channel", etc</xs:documentation>
@@ -516,12 +521,6 @@ For example:
 			<xs:element minOccurs="0" name="deckSheathing" type="deckSheathingEnum">
 				<xs:annotation>
 					<xs:documentation>Roofing deck material.</xs:documentation>
-				</xs:annotation>
-			</xs:element>
-			<xs:element name="constructionStyle" type="roofConstructionEnum" minOccurs="0"
-				maxOccurs="1">
-				<xs:annotation>
-					<xs:documentation>Describes the roof structure design.</xs:documentation>
 				</xs:annotation>
 			</xs:element>
 			<xs:element minOccurs="0" name="polygon2dSceneCameraView" type="polygon2d">
