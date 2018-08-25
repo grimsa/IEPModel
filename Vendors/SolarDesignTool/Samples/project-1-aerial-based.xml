@@ -27,7 +27,6 @@
           <iep:city>Santa Cruz</iep:city>
           <iep:state>CA</iep:state>
           <iep:zipCode>95060</iep:zipCode>
-          <iep:coordinates/>
         </iep:address>
       </iep:addresses>
       <iep:roles>
@@ -54,7 +53,6 @@
           <iep:city>Santa Cruz</iep:city>
           <iep:state>CA</iep:state>
           <iep:zipCode>95060</iep:zipCode>
-          <iep:coordinates/>
         </iep:address>
       </iep:addresses>
       <iep:roles>
@@ -134,7 +132,6 @@
         <iep:address>
           <iep:city>Santa Cruz</iep:city>
           <iep:state>CA</iep:state>
-          <iep:coordinates/>
         </iep:address>
       </iep:authorityHavingJurisdiction>
       <iep:type>INCORPORATED_PLACE</iep:type>

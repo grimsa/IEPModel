@@ -71,9 +71,10 @@
             <xs:element name="zipCode" type="zipCode" maxOccurs="1" minOccurs="0"/>
             <xs:element minOccurs="0" name="elevation" nillable="true" type="xs:float">
                 <xs:annotation>
-                    <xs:documentation>This is in feer</xs:documentation>
+                    <xs:documentation>This is in feet</xs:documentation>
                 </xs:annotation>
             </xs:element>
+            <xs:element name="coordinates" type="geoLocation" minOccurs="0"/>
             <xs:element minOccurs="0" name="latitude" nillable="true" type="xs:float">
                 <xs:annotation>
                     <xs:documentation>This is in degrees</xs:documentation>
@@ -626,32 +627,43 @@ ISSUES / TO DO:
         <xs:sequence>
             <xs:element name="latitude" type="xs:double"/>
             <xs:element name="longitude" type="xs:double"/>
-            <xs:element name="altitude" type="xs:double"/>
-            <xs:element name="altitudeReference" default="Ground">
-                <xs:annotation>
-                    <xs:documentation>Reference for 'altitude' element.</xs:documentation>
-                </xs:annotation>
-                <xs:simpleType>
-                    <xs:restriction base="xs:string">
-                        <xs:enumeration value="Ground">
-                            <xs:annotation>
-                                <xs:documentation>The altitude is measured from the ground.</xs:documentation>
-                            </xs:annotation>
-                        </xs:enumeration>
-                        <xs:enumeration value="Ellipsoid">
-                            <xs:annotation>
-                                <xs:documentation>The altitude is measured from the ellipsoid.</xs:documentation>
-                            </xs:annotation>
-                        </xs:enumeration>
-                        <xs:enumeration value="SeaLevel">
-                            <xs:annotation>
-                                <xs:documentation>The altitude is measured from sea level.</xs:documentation>
-                            </xs:annotation>
-                        </xs:enumeration>
-                    </xs:restriction>
-                </xs:simpleType>
-            </xs:element>
         </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="geoLocationWithAltitude">
+        <xs:annotation>
+            <xs:documentation>Geographic location that also considers altitude.</xs:documentation>
+        </xs:annotation>
+        <xs:complexContent>
+            <xs:extension base="geoLocation">
+                <xs:sequence>
+                    <xs:element name="altitude" type="xs:double"/>
+                    <xs:element name="altitudeReference" default="Ground">
+                        <xs:annotation>
+                            <xs:documentation>Reference for 'altitude' element.</xs:documentation>
+                        </xs:annotation>
+                        <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                                <xs:enumeration value="Ground">
+                                    <xs:annotation>
+                                        <xs:documentation>The altitude is measured from the ground.</xs:documentation>
+                                    </xs:annotation>
+                                </xs:enumeration>
+                                <xs:enumeration value="Ellipsoid">
+                                    <xs:annotation>
+                                        <xs:documentation>The altitude is measured from the ellipsoid.</xs:documentation>
+                                    </xs:annotation>
+                                </xs:enumeration>
+                                <xs:enumeration value="SeaLevel">
+                                    <xs:annotation>
+                                        <xs:documentation>The altitude is measured from sea level.</xs:documentation>
+                                    </xs:annotation>
+                                </xs:enumeration>
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:element>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
     </xs:complexType>
     <xs:complexType name="point2d">
         <xs:annotation>
