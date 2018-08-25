@@ -670,6 +670,7 @@ ISSUES / TO DO:
             <xs:documentation>A ccordinate location in 2 dimensional space.</xs:documentation>
         </xs:annotation>
         <xs:sequence>
+            <xs:element name="label" type="xs:string" minOccurs="0"/>
             <xs:element name="x" type="xs:double"/>
             <xs:element name="y" type="xs:double"/>
         </xs:sequence>

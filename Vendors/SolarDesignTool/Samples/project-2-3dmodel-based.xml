@@ -237,7 +237,7 @@
             </iep:roofAreaPolygon2dLocal>
             <iep:holes>
               <iep:hole id="F14">
-                <iep:name>F14</iep:name>
+                <iep:label>F14</iep:label>
                 <iep:polygon2dOrthoProjection>
                   <iep:vertices>
                     <iep:vertex id="hole-vertex-ortho-A">
@@ -310,7 +310,7 @@
                 </iep:edges>
               </iep:hole>
               <iep:hole id="F13">
-                <iep:name>F13</iep:name>
+                <iep:label>F13</iep:label>
                 <iep:polygon2dOrthoProjection>
                   <iep:vertices>
                     <iep:vertex id="hole-vertex-ortho-E">
@@ -383,7 +383,7 @@
                 </iep:edges>
               </iep:hole>
               <iep:hole id="F9">
-                <iep:name>F9</iep:name>
+                <iep:label>F9</iep:label>
                 <iep:polygon2dOrthoProjection>
                   <iep:vertices>
                     <iep:vertex id="hole-vertex-ortho-I">
@@ -456,7 +456,7 @@
                 </iep:edges>
               </iep:hole>
               <iep:hole id="F15">
-                <iep:name>F15</iep:name>
+                <iep:label>F15</iep:label>
                 <iep:polygon2dOrthoProjection>
                   <iep:vertices>
                     <iep:vertex id="hole-vertex-ortho-M">
@@ -529,7 +529,7 @@
                 </iep:edges>
               </iep:hole>
               <iep:hole id="F11">
-                <iep:name>F11</iep:name>
+                <iep:label>F11</iep:label>
                 <iep:polygon2dOrthoProjection>
                   <iep:vertices>
                     <iep:vertex id="hole-vertex-ortho-Q">
@@ -602,7 +602,7 @@
                 </iep:edges>
               </iep:hole>
               <iep:hole id="F12">
-                <iep:name>F12</iep:name>
+                <iep:label>F12</iep:label>
                 <iep:polygon2dOrthoProjection>
                   <iep:vertices>
                     <iep:vertex id="hole-vertex-ortho-U">
@@ -675,7 +675,7 @@
                 </iep:edges>
               </iep:hole>
               <iep:hole id="F10">
-                <iep:name>F10</iep:name>
+                <iep:label>F10</iep:label>
                 <iep:polygon2dOrthoProjection>
                   <iep:vertices>
                     <iep:vertex id="hole-vertex-ortho-Y">
@@ -840,7 +840,7 @@
             </iep:roofAreaPolygon2dLocal>
             <iep:holes>
               <iep:hole id="F8">
-                <iep:name>F8</iep:name>
+                <iep:label>F8</iep:label>
                 <iep:polygon2dOrthoProjection>
                   <iep:vertices>
                     <iep:vertex id="hole-vertex-ortho-AC">
@@ -913,7 +913,7 @@
                 </iep:edges>
               </iep:hole>
               <iep:hole id="F5">
-                <iep:name>F5</iep:name>
+                <iep:label>F5</iep:label>
                 <iep:polygon2dOrthoProjection>
                   <iep:vertices>
                     <iep:vertex id="hole-vertex-ortho-AG">
@@ -986,7 +986,7 @@
                 </iep:edges>
               </iep:hole>
               <iep:hole id="F3">
-                <iep:name>F3</iep:name>
+                <iep:label>F3</iep:label>
                 <iep:polygon2dOrthoProjection>
                   <iep:vertices>
                     <iep:vertex id="hole-vertex-ortho-AK">
@@ -1059,7 +1059,7 @@
                 </iep:edges>
               </iep:hole>
               <iep:hole id="F4">
-                <iep:name>F4</iep:name>
+                <iep:label>F4</iep:label>
                 <iep:polygon2dOrthoProjection>
                   <iep:vertices>
                     <iep:vertex id="hole-vertex-ortho-AO">
@@ -1132,7 +1132,7 @@
                 </iep:edges>
               </iep:hole>
               <iep:hole id="F6">
-                <iep:name>F6</iep:name>
+                <iep:label>F6</iep:label>
                 <iep:polygon2dOrthoProjection>
                   <iep:vertices>
                     <iep:vertex id="hole-vertex-ortho-AS">
@@ -1205,7 +1205,7 @@
                 </iep:edges>
               </iep:hole>
               <iep:hole id="F7">
-                <iep:name>F7</iep:name>
+                <iep:label>F7</iep:label>
                 <iep:polygon2dOrthoProjection>
                   <iep:vertices>
                     <iep:vertex id="hole-vertex-ortho-AW">

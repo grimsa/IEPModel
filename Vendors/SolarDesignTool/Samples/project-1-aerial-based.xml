@@ -226,7 +226,7 @@
             </iep:roofAreaPolygon2dLocal>
             <iep:holes>
               <iep:hole id="Test">
-                <iep:name>Test</iep:name>
+                <iep:label>Test</iep:label>
                 <iep:polygon2dOrthoProjection>
                   <iep:vertices>
                     <iep:vertex id="hole-vertex-ortho-A">
@@ -299,7 +299,7 @@
                 </iep:edges>
               </iep:hole>
               <iep:hole id="ts2">
-                <iep:name>ts2</iep:name>
+                <iep:label>ts2</iep:label>
                 <iep:polygon2dOrthoProjection>
                   <iep:vertices>
                     <iep:vertex id="hole-vertex-ortho-E">
@@ -372,7 +372,7 @@
                 </iep:edges>
               </iep:hole>
               <iep:hole id="rs4">
-                <iep:name>rs4</iep:name>
+                <iep:label>rs4</iep:label>
                 <iep:polygon2dOrthoProjection>
                   <iep:vertices>
                     <iep:vertex id="hole-vertex-ortho-I">
@@ -445,7 +445,7 @@
                 </iep:edges>
               </iep:hole>
               <iep:hole id="rs3">
-                <iep:name>rs3</iep:name>
+                <iep:label>rs3</iep:label>
                 <iep:polygon2dOrthoProjection>
                   <iep:vertices>
                     <iep:vertex id="hole-vertex-ortho-M">

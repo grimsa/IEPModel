@@ -551,6 +551,7 @@ For example:
 							</xs:annotation>
 							<xs:complexType>
 								<xs:sequence>
+									<xs:element minOccurs="0" name="label" type="xs:string"/>
 									<xs:element minOccurs="0" name="polygon2dOrthoProjection"
 										type="polygon2d"/>
 									<xs:element minOccurs="0" name="polygon2dLocal" type="polygon2d"/>
