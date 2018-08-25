@@ -255,22 +255,22 @@
                   </iep:vertices>
                 </iep:polygon2dLocal>
                 <iep:edges>
-                  <iep:edge id="a">
+                  <iep:edge id="Test-a">
                     <iep:startIdRef>hole-vertex-local-A</iep:startIdRef>
                     <iep:endIdRef>hole-vertex-local-B</iep:endIdRef>
                     <iep:type>flashing</iep:type>
                   </iep:edge>
-                  <iep:edge id="b">
+                  <iep:edge id="Test-b">
                     <iep:startIdRef>hole-vertex-local-B</iep:startIdRef>
                     <iep:endIdRef>hole-vertex-local-C</iep:endIdRef>
                     <iep:type>flashing</iep:type>
                   </iep:edge>
-                  <iep:edge id="c">
+                  <iep:edge id="Test-c">
                     <iep:startIdRef>hole-vertex-local-C</iep:startIdRef>
                     <iep:endIdRef>hole-vertex-local-D</iep:endIdRef>
                     <iep:type>flashing</iep:type>
                   </iep:edge>
-                  <iep:edge id="d">
+                  <iep:edge id="Test-d">
                     <iep:startIdRef>hole-vertex-local-D</iep:startIdRef>
                     <iep:endIdRef>hole-vertex-local-A</iep:endIdRef>
                     <iep:type>flashing</iep:type>
@@ -328,22 +328,22 @@
                   </iep:vertices>
                 </iep:polygon2dLocal>
                 <iep:edges>
-                  <iep:edge id="a">
+                  <iep:edge id="ts2-a">
                     <iep:startIdRef>hole-vertex-local-E</iep:startIdRef>
                     <iep:endIdRef>hole-vertex-local-F</iep:endIdRef>
                     <iep:type>flashing</iep:type>
                   </iep:edge>
-                  <iep:edge id="b">
+                  <iep:edge id="ts2-b">
                     <iep:startIdRef>hole-vertex-local-F</iep:startIdRef>
                     <iep:endIdRef>hole-vertex-local-G</iep:endIdRef>
                     <iep:type>flashing</iep:type>
                   </iep:edge>
-                  <iep:edge id="c">
+                  <iep:edge id="ts2-c">
                     <iep:startIdRef>hole-vertex-local-G</iep:startIdRef>
                     <iep:endIdRef>hole-vertex-local-H</iep:endIdRef>
                     <iep:type>flashing</iep:type>
                   </iep:edge>
-                  <iep:edge id="d">
+                  <iep:edge id="ts2-d">
                     <iep:startIdRef>hole-vertex-local-H</iep:startIdRef>
                     <iep:endIdRef>hole-vertex-local-E</iep:endIdRef>
                     <iep:type>flashing</iep:type>
@@ -401,22 +401,22 @@
                   </iep:vertices>
                 </iep:polygon2dLocal>
                 <iep:edges>
-                  <iep:edge id="a">
+                  <iep:edge id="rs4-a">
                     <iep:startIdRef>hole-vertex-local-I</iep:startIdRef>
                     <iep:endIdRef>hole-vertex-local-J</iep:endIdRef>
                     <iep:type>flashing</iep:type>
                   </iep:edge>
-                  <iep:edge id="b">
+                  <iep:edge id="rs4-b">
                     <iep:startIdRef>hole-vertex-local-J</iep:startIdRef>
                     <iep:endIdRef>hole-vertex-local-K</iep:endIdRef>
                     <iep:type>flashing</iep:type>
                   </iep:edge>
-                  <iep:edge id="c">
+                  <iep:edge id="rs4-c">
                     <iep:startIdRef>hole-vertex-local-K</iep:startIdRef>
                     <iep:endIdRef>hole-vertex-local-L</iep:endIdRef>
                     <iep:type>flashing</iep:type>
                   </iep:edge>
-                  <iep:edge id="d">
+                  <iep:edge id="rs4-d">
                     <iep:startIdRef>hole-vertex-local-L</iep:startIdRef>
                     <iep:endIdRef>hole-vertex-local-I</iep:endIdRef>
                     <iep:type>flashing</iep:type>
@@ -474,22 +474,22 @@
                   </iep:vertices>
                 </iep:polygon2dLocal>
                 <iep:edges>
-                  <iep:edge id="a">
+                  <iep:edge id="rs3-a">
                     <iep:startIdRef>hole-vertex-local-M</iep:startIdRef>
                     <iep:endIdRef>hole-vertex-local-N</iep:endIdRef>
                     <iep:type>flashing</iep:type>
                   </iep:edge>
-                  <iep:edge id="b">
+                  <iep:edge id="rs3-b">
                     <iep:startIdRef>hole-vertex-local-N</iep:startIdRef>
                     <iep:endIdRef>hole-vertex-local-O</iep:endIdRef>
                     <iep:type>flashing</iep:type>
                   </iep:edge>
-                  <iep:edge id="c">
+                  <iep:edge id="rs3-c">
                     <iep:startIdRef>hole-vertex-local-O</iep:startIdRef>
                     <iep:endIdRef>hole-vertex-local-P</iep:endIdRef>
                     <iep:type>flashing</iep:type>
                   </iep:edge>
-                  <iep:edge id="d">
+                  <iep:edge id="rs3-d">
                     <iep:startIdRef>hole-vertex-local-P</iep:startIdRef>
                     <iep:endIdRef>hole-vertex-local-M</iep:endIdRef>
                     <iep:type>flashing</iep:type>
@@ -541,14 +541,14 @@
   <iep:electricDistributionSystems>
     <iep:electricDistributionSystem>
       <iep:electricalPanelDefinitions>
-        <iep:electricalPanelDefinition id="ELECTRICAL_PANEL-79487">
+        <iep:electricalPanelDefinition id="DEF-ELECTRICAL_PANEL-79487">
           <iep:manufacturer>Generic Manufacturer</iep:manufacturer>
           <iep:modelNumber>Generic Model</iep:modelNumber>
           <iep:ratedCurrent>200</iep:ratedCurrent>
         </iep:electricalPanelDefinition>
       </iep:electricalPanelDefinitions>
       <iep:electricalPanels>
-        <iep:electricalPanel id="ELECTRICAL_PANEL-79487" equipmentDefinitionIdRef="ELECTRICAL_PANEL-79487">
+        <iep:electricalPanel id="ELECTRICAL_PANEL-79487" equipmentDefinitionIdRef="DEF-ELECTRICAL_PANEL-79487">
           <iep:name>MSP</iep:name>
           <iep:mainBreaker>
             <iep:currentRating>200</iep:currentRating>

@@ -266,22 +266,22 @@
                   </iep:vertices>
                 </iep:polygon2dLocal>
                 <iep:edges>
-                  <iep:edge id="a">
+                  <iep:edge id="F14-a">
                     <iep:startIdRef>hole-vertex-local-A</iep:startIdRef>
                     <iep:endIdRef>hole-vertex-local-B</iep:endIdRef>
                     <iep:type>flashing</iep:type>
                   </iep:edge>
-                  <iep:edge id="b">
+                  <iep:edge id="F14-b">
                     <iep:startIdRef>hole-vertex-local-B</iep:startIdRef>
                     <iep:endIdRef>hole-vertex-local-C</iep:endIdRef>
                     <iep:type>flashing</iep:type>
                   </iep:edge>
-                  <iep:edge id="c">
+                  <iep:edge id="F14-c">
                     <iep:startIdRef>hole-vertex-local-C</iep:startIdRef>
                     <iep:endIdRef>hole-vertex-local-D</iep:endIdRef>
                     <iep:type>flashing</iep:type>
                   </iep:edge>
-                  <iep:edge id="d">
+                  <iep:edge id="F14-d">
                     <iep:startIdRef>hole-vertex-local-D</iep:startIdRef>
                     <iep:endIdRef>hole-vertex-local-A</iep:endIdRef>
                     <iep:type>flashing</iep:type>
@@ -339,22 +339,22 @@
                   </iep:vertices>
                 </iep:polygon2dLocal>
                 <iep:edges>
-                  <iep:edge id="a">
+                  <iep:edge id="F13-a">
                     <iep:startIdRef>hole-vertex-local-E</iep:startIdRef>
                     <iep:endIdRef>hole-vertex-local-F</iep:endIdRef>
                     <iep:type>flashing</iep:type>
                   </iep:edge>
-                  <iep:edge id="b">
+                  <iep:edge id="F13-b">
                     <iep:startIdRef>hole-vertex-local-F</iep:startIdRef>
                     <iep:endIdRef>hole-vertex-local-G</iep:endIdRef>
                     <iep:type>flashing</iep:type>
                   </iep:edge>
-                  <iep:edge id="c">
+                  <iep:edge id="F13-c">
                     <iep:startIdRef>hole-vertex-local-G</iep:startIdRef>
                     <iep:endIdRef>hole-vertex-local-H</iep:endIdRef>
                     <iep:type>flashing</iep:type>
                   </iep:edge>
-                  <iep:edge id="d">
+                  <iep:edge id="F13-d">
                     <iep:startIdRef>hole-vertex-local-H</iep:startIdRef>
                     <iep:endIdRef>hole-vertex-local-E</iep:endIdRef>
                     <iep:type>flashing</iep:type>
@@ -412,22 +412,22 @@
                   </iep:vertices>
                 </iep:polygon2dLocal>
                 <iep:edges>
-                  <iep:edge id="a">
+                  <iep:edge id="F9-a">
                     <iep:startIdRef>hole-vertex-local-I</iep:startIdRef>
                     <iep:endIdRef>hole-vertex-local-J</iep:endIdRef>
                     <iep:type>flashing</iep:type>
                   </iep:edge>
-                  <iep:edge id="b">
+                  <iep:edge id="F9-b">
                     <iep:startIdRef>hole-vertex-local-J</iep:startIdRef>
                     <iep:endIdRef>hole-vertex-local-K</iep:endIdRef>
                     <iep:type>flashing</iep:type>
                   </iep:edge>
-                  <iep:edge id="c">
+                  <iep:edge id="F9-c">
                     <iep:startIdRef>hole-vertex-local-K</iep:startIdRef>
                     <iep:endIdRef>hole-vertex-local-L</iep:endIdRef>
                     <iep:type>flashing</iep:type>
                   </iep:edge>
-                  <iep:edge id="d">
+                  <iep:edge id="F9-d">
                     <iep:startIdRef>hole-vertex-local-L</iep:startIdRef>
                     <iep:endIdRef>hole-vertex-local-I</iep:endIdRef>
                     <iep:type>flashing</iep:type>
@@ -485,22 +485,22 @@
                   </iep:vertices>
                 </iep:polygon2dLocal>
                 <iep:edges>
-                  <iep:edge id="a">
+                  <iep:edge id="F15-a">
                     <iep:startIdRef>hole-vertex-local-M</iep:startIdRef>
                     <iep:endIdRef>hole-vertex-local-N</iep:endIdRef>
                     <iep:type>flashing</iep:type>
                   </iep:edge>
-                  <iep:edge id="b">
+                  <iep:edge id="F15-b">
                     <iep:startIdRef>hole-vertex-local-N</iep:startIdRef>
                     <iep:endIdRef>hole-vertex-local-O</iep:endIdRef>
                     <iep:type>flashing</iep:type>
                   </iep:edge>
-                  <iep:edge id="c">
+                  <iep:edge id="F15-c">
                     <iep:startIdRef>hole-vertex-local-O</iep:startIdRef>
                     <iep:endIdRef>hole-vertex-local-P</iep:endIdRef>
                     <iep:type>flashing</iep:type>
                   </iep:edge>
-                  <iep:edge id="d">
+                  <iep:edge id="F15-d">
                     <iep:startIdRef>hole-vertex-local-P</iep:startIdRef>
                     <iep:endIdRef>hole-vertex-local-M</iep:endIdRef>
                     <iep:type>flashing</iep:type>
@@ -558,22 +558,22 @@
                   </iep:vertices>
                 </iep:polygon2dLocal>
                 <iep:edges>
-                  <iep:edge id="a">
+                  <iep:edge id="F11-a">
                     <iep:startIdRef>hole-vertex-local-Q</iep:startIdRef>
                     <iep:endIdRef>hole-vertex-local-R</iep:endIdRef>
                     <iep:type>flashing</iep:type>
                   </iep:edge>
-                  <iep:edge id="b">
+                  <iep:edge id="F11-b">
                     <iep:startIdRef>hole-vertex-local-R</iep:startIdRef>
                     <iep:endIdRef>hole-vertex-local-S</iep:endIdRef>
                     <iep:type>flashing</iep:type>
                   </iep:edge>
-                  <iep:edge id="c">
+                  <iep:edge id="F11-c">
                     <iep:startIdRef>hole-vertex-local-S</iep:startIdRef>
                     <iep:endIdRef>hole-vertex-local-T</iep:endIdRef>
                     <iep:type>flashing</iep:type>
                   </iep:edge>
-                  <iep:edge id="d">
+                  <iep:edge id="F11-d">
                     <iep:startIdRef>hole-vertex-local-T</iep:startIdRef>
                     <iep:endIdRef>hole-vertex-local-Q</iep:endIdRef>
                     <iep:type>flashing</iep:type>
@@ -631,22 +631,22 @@
                   </iep:vertices>
                 </iep:polygon2dLocal>
                 <iep:edges>
-                  <iep:edge id="a">
+                  <iep:edge id="F12-a">
                     <iep:startIdRef>hole-vertex-local-U</iep:startIdRef>
                     <iep:endIdRef>hole-vertex-local-V</iep:endIdRef>
                     <iep:type>flashing</iep:type>
                   </iep:edge>
-                  <iep:edge id="b">
+                  <iep:edge id="F12-b">
                     <iep:startIdRef>hole-vertex-local-V</iep:startIdRef>
                     <iep:endIdRef>hole-vertex-local-W</iep:endIdRef>
                     <iep:type>flashing</iep:type>
                   </iep:edge>
-                  <iep:edge id="c">
+                  <iep:edge id="F12-c">
                     <iep:startIdRef>hole-vertex-local-W</iep:startIdRef>
                     <iep:endIdRef>hole-vertex-local-X</iep:endIdRef>
                     <iep:type>flashing</iep:type>
                   </iep:edge>
-                  <iep:edge id="d">
+                  <iep:edge id="F12-d">
                     <iep:startIdRef>hole-vertex-local-X</iep:startIdRef>
                     <iep:endIdRef>hole-vertex-local-U</iep:endIdRef>
                     <iep:type>flashing</iep:type>
@@ -704,22 +704,22 @@
                   </iep:vertices>
                 </iep:polygon2dLocal>
                 <iep:edges>
-                  <iep:edge id="a">
+                  <iep:edge id="F10-a">
                     <iep:startIdRef>hole-vertex-local-Y</iep:startIdRef>
                     <iep:endIdRef>hole-vertex-local-Z</iep:endIdRef>
                     <iep:type>flashing</iep:type>
                   </iep:edge>
-                  <iep:edge id="b">
+                  <iep:edge id="F10-b">
                     <iep:startIdRef>hole-vertex-local-Z</iep:startIdRef>
                     <iep:endIdRef>hole-vertex-local-AA</iep:endIdRef>
                     <iep:type>flashing</iep:type>
                   </iep:edge>
-                  <iep:edge id="c">
+                  <iep:edge id="F10-c">
                     <iep:startIdRef>hole-vertex-local-AA</iep:startIdRef>
                     <iep:endIdRef>hole-vertex-local-AB</iep:endIdRef>
                     <iep:type>flashing</iep:type>
                   </iep:edge>
-                  <iep:edge id="d">
+                  <iep:edge id="F10-d">
                     <iep:startIdRef>hole-vertex-local-AB</iep:startIdRef>
                     <iep:endIdRef>hole-vertex-local-Y</iep:endIdRef>
                     <iep:type>flashing</iep:type>
@@ -870,22 +870,22 @@
                   </iep:vertices>
                 </iep:polygon2dLocal>
                 <iep:edges>
-                  <iep:edge id="a">
+                  <iep:edge id="F8-a">
                     <iep:startIdRef>hole-vertex-local-AC</iep:startIdRef>
                     <iep:endIdRef>hole-vertex-local-AD</iep:endIdRef>
                     <iep:type>flashing</iep:type>
                   </iep:edge>
-                  <iep:edge id="b">
+                  <iep:edge id="F8-b">
                     <iep:startIdRef>hole-vertex-local-AD</iep:startIdRef>
                     <iep:endIdRef>hole-vertex-local-AE</iep:endIdRef>
                     <iep:type>flashing</iep:type>
                   </iep:edge>
-                  <iep:edge id="c">
+                  <iep:edge id="F8-c">
                     <iep:startIdRef>hole-vertex-local-AE</iep:startIdRef>
                     <iep:endIdRef>hole-vertex-local-AF</iep:endIdRef>
                     <iep:type>flashing</iep:type>
                   </iep:edge>
-                  <iep:edge id="d">
+                  <iep:edge id="F8-d">
                     <iep:startIdRef>hole-vertex-local-AF</iep:startIdRef>
                     <iep:endIdRef>hole-vertex-local-AC</iep:endIdRef>
                     <iep:type>flashing</iep:type>
@@ -943,22 +943,22 @@
                   </iep:vertices>
                 </iep:polygon2dLocal>
                 <iep:edges>
-                  <iep:edge id="a">
+                  <iep:edge id="F5-a">
                     <iep:startIdRef>hole-vertex-local-AG</iep:startIdRef>
                     <iep:endIdRef>hole-vertex-local-AH</iep:endIdRef>
                     <iep:type>flashing</iep:type>
                   </iep:edge>
-                  <iep:edge id="b">
+                  <iep:edge id="F5-b">
                     <iep:startIdRef>hole-vertex-local-AH</iep:startIdRef>
                     <iep:endIdRef>hole-vertex-local-AI</iep:endIdRef>
                     <iep:type>flashing</iep:type>
                   </iep:edge>
-                  <iep:edge id="c">
+                  <iep:edge id="F5-c">
                     <iep:startIdRef>hole-vertex-local-AI</iep:startIdRef>
                     <iep:endIdRef>hole-vertex-local-AJ</iep:endIdRef>
                     <iep:type>flashing</iep:type>
                   </iep:edge>
-                  <iep:edge id="d">
+                  <iep:edge id="F5-d">
                     <iep:startIdRef>hole-vertex-local-AJ</iep:startIdRef>
                     <iep:endIdRef>hole-vertex-local-AG</iep:endIdRef>
                     <iep:type>flashing</iep:type>
@@ -1016,22 +1016,22 @@
                   </iep:vertices>
                 </iep:polygon2dLocal>
                 <iep:edges>
-                  <iep:edge id="a">
+                  <iep:edge id="F3-a">
                     <iep:startIdRef>hole-vertex-local-AK</iep:startIdRef>
                     <iep:endIdRef>hole-vertex-local-AL</iep:endIdRef>
                     <iep:type>flashing</iep:type>
                   </iep:edge>
-                  <iep:edge id="b">
+                  <iep:edge id="F3-b">
                     <iep:startIdRef>hole-vertex-local-AL</iep:startIdRef>
                     <iep:endIdRef>hole-vertex-local-AM</iep:endIdRef>
                     <iep:type>flashing</iep:type>
                   </iep:edge>
-                  <iep:edge id="c">
+                  <iep:edge id="F3-c">
                     <iep:startIdRef>hole-vertex-local-AM</iep:startIdRef>
                     <iep:endIdRef>hole-vertex-local-AN</iep:endIdRef>
                     <iep:type>flashing</iep:type>
                   </iep:edge>
-                  <iep:edge id="d">
+                  <iep:edge id="F3-d">
                     <iep:startIdRef>hole-vertex-local-AN</iep:startIdRef>
                     <iep:endIdRef>hole-vertex-local-AK</iep:endIdRef>
                     <iep:type>flashing</iep:type>
@@ -1089,22 +1089,22 @@
                   </iep:vertices>
                 </iep:polygon2dLocal>
                 <iep:edges>
-                  <iep:edge id="a">
+                  <iep:edge id="F4-a">
                     <iep:startIdRef>hole-vertex-local-AO</iep:startIdRef>
                     <iep:endIdRef>hole-vertex-local-AP</iep:endIdRef>
                     <iep:type>flashing</iep:type>
                   </iep:edge>
-                  <iep:edge id="b">
+                  <iep:edge id="F4-b">
                     <iep:startIdRef>hole-vertex-local-AP</iep:startIdRef>
                     <iep:endIdRef>hole-vertex-local-AQ</iep:endIdRef>
                     <iep:type>flashing</iep:type>
                   </iep:edge>
-                  <iep:edge id="c">
+                  <iep:edge id="F4-c">
                     <iep:startIdRef>hole-vertex-local-AQ</iep:startIdRef>
                     <iep:endIdRef>hole-vertex-local-AR</iep:endIdRef>
                     <iep:type>flashing</iep:type>
                   </iep:edge>
-                  <iep:edge id="d">
+                  <iep:edge id="F4-d">
                     <iep:startIdRef>hole-vertex-local-AR</iep:startIdRef>
                     <iep:endIdRef>hole-vertex-local-AO</iep:endIdRef>
                     <iep:type>flashing</iep:type>
@@ -1162,22 +1162,22 @@
                   </iep:vertices>
                 </iep:polygon2dLocal>
                 <iep:edges>
-                  <iep:edge id="a">
+                  <iep:edge id="F6-a">
                     <iep:startIdRef>hole-vertex-local-AS</iep:startIdRef>
                     <iep:endIdRef>hole-vertex-local-AT</iep:endIdRef>
                     <iep:type>flashing</iep:type>
                   </iep:edge>
-                  <iep:edge id="b">
+                  <iep:edge id="F6-b">
                     <iep:startIdRef>hole-vertex-local-AT</iep:startIdRef>
                     <iep:endIdRef>hole-vertex-local-AU</iep:endIdRef>
                     <iep:type>flashing</iep:type>
                   </iep:edge>
-                  <iep:edge id="c">
+                  <iep:edge id="F6-c">
                     <iep:startIdRef>hole-vertex-local-AU</iep:startIdRef>
                     <iep:endIdRef>hole-vertex-local-AV</iep:endIdRef>
                     <iep:type>flashing</iep:type>
                   </iep:edge>
-                  <iep:edge id="d">
+                  <iep:edge id="F6-d">
                     <iep:startIdRef>hole-vertex-local-AV</iep:startIdRef>
                     <iep:endIdRef>hole-vertex-local-AS</iep:endIdRef>
                     <iep:type>flashing</iep:type>
@@ -1235,22 +1235,22 @@
                   </iep:vertices>
                 </iep:polygon2dLocal>
                 <iep:edges>
-                  <iep:edge id="a">
+                  <iep:edge id="F7-a">
                     <iep:startIdRef>hole-vertex-local-AW</iep:startIdRef>
                     <iep:endIdRef>hole-vertex-local-AX</iep:endIdRef>
                     <iep:type>flashing</iep:type>
                   </iep:edge>
-                  <iep:edge id="b">
+                  <iep:edge id="F7-b">
                     <iep:startIdRef>hole-vertex-local-AX</iep:startIdRef>
                     <iep:endIdRef>hole-vertex-local-AY</iep:endIdRef>
                     <iep:type>flashing</iep:type>
                   </iep:edge>
-                  <iep:edge id="c">
+                  <iep:edge id="F7-c">
                     <iep:startIdRef>hole-vertex-local-AY</iep:startIdRef>
                     <iep:endIdRef>hole-vertex-local-AZ</iep:endIdRef>
                     <iep:type>flashing</iep:type>
                   </iep:edge>
-                  <iep:edge id="d">
+                  <iep:edge id="F7-d">
                     <iep:startIdRef>hole-vertex-local-AZ</iep:startIdRef>
                     <iep:endIdRef>hole-vertex-local-AW</iep:endIdRef>
                     <iep:type>flashing</iep:type>
@@ -1302,14 +1302,14 @@
   <iep:electricDistributionSystems>
     <iep:electricDistributionSystem>
       <iep:electricalPanelDefinitions>
-        <iep:electricalPanelDefinition id="ELECTRICAL_PANEL-79500">
+        <iep:electricalPanelDefinition id="DEF-ELECTRICAL_PANEL-79500">
           <iep:manufacturer>Generic Manufacturer</iep:manufacturer>
           <iep:modelNumber>Generic Model</iep:modelNumber>
           <iep:ratedCurrent>200</iep:ratedCurrent>
         </iep:electricalPanelDefinition>
       </iep:electricalPanelDefinitions>
       <iep:electricalPanels>
-        <iep:electricalPanel id="ELECTRICAL_PANEL-79500" equipmentDefinitionIdRef="ELECTRICAL_PANEL-79500">
+        <iep:electricalPanel id="ELECTRICAL_PANEL-79500" equipmentDefinitionIdRef="DEF-ELECTRICAL_PANEL-79500">
           <iep:name>MSP</iep:name>
           <iep:mainBreaker>
             <iep:currentRating>200</iep:currentRating>
