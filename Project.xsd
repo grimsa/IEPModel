@@ -451,6 +451,11 @@ Included reference to Utility Service here instead of in Building since Project 
 					<xs:documentation>A more general description of the project. Details are expected to be included at the Measure level</xs:documentation>
 				</xs:annotation>
 			</xs:element>
+			<xs:element name="scopeOfWork" type="xs:string" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Formal scope of work within this project.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
 			<xs:element name="projectClassification" type="projectClassificationEnum" minOccurs="0"
 				maxOccurs="1"/>
 			<xs:element minOccurs="0" name="changeLog" type="changeLog" maxOccurs="1"/>
