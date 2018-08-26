@@ -83,13 +83,14 @@
   </iep:codes>
   <iep:utilityServices>
     <iep:utilityService id="null-90">
-      <iep:applicationIds>
+<!--      <iep:applicationIds>
         <iep:applicationId>
           <iep:idValue>90</iep:idValue>
           <iep:idSource>SolarDesignTool</iep:idSource>
         </iep:applicationId>
       </iep:applicationIds>
-      <iep:utilityId>14328</iep:utilityId>
+      <iep:utilityId>14328</iep:utilityId>-->
+      <iep:energy>ELECTRICITY</iep:energy>
       <iep:utilityName>Pacific Gas &amp; Electric Co</iep:utilityName>
       <iep:utilityMeterId>34578345</iep:utilityMeterId>
     </iep:utilityService>
