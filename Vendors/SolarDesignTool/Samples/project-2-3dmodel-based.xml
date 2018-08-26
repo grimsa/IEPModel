@@ -733,23 +733,23 @@
             <iep:deckSheathing>ORIENTED_STRAND_BOARD_OR_PLYWOOD_GT_OR_EQ2_7_16_INCH_THICK</iep:deckSheathing>
             <iep:edges>
               <iep:edge id="edge-a">
-                <iep:startIdRef>A</iep:startIdRef>
-                <iep:endIdRef>B</iep:endIdRef>
+                <iep:startIdRef>array-area-local-vertex-A</iep:startIdRef>
+                <iep:endIdRef>array-area-local-vertex-B</iep:endIdRef>
                 <iep:type>rake</iep:type>
               </iep:edge>
               <iep:edge id="edge-b">
-                <iep:startIdRef>B</iep:startIdRef>
-                <iep:endIdRef>C</iep:endIdRef>
+                <iep:startIdRef>array-area-local-vertex-B</iep:startIdRef>
+                <iep:endIdRef>array-area-local-vertex-C</iep:endIdRef>
                 <iep:type>eave</iep:type>
               </iep:edge>
               <iep:edge id="edge-c">
-                <iep:startIdRef>C</iep:startIdRef>
-                <iep:endIdRef>D</iep:endIdRef>
+                <iep:startIdRef>array-area-local-vertex-C</iep:startIdRef>
+                <iep:endIdRef>array-area-local-vertex-D</iep:endIdRef>
                 <iep:type>rake</iep:type>
               </iep:edge>
               <iep:edge id="edge-d">
-                <iep:startIdRef>D</iep:startIdRef>
-                <iep:endIdRef>A</iep:endIdRef>
+                <iep:startIdRef>array-area-local-vertex-D</iep:startIdRef>
+                <iep:endIdRef>array-area-local-vertex-A</iep:endIdRef>
                 <iep:type>ridge</iep:type>
               </iep:edge>
             </iep:edges>
@@ -1264,23 +1264,23 @@
             <iep:deckSheathing>ORIENTED_STRAND_BOARD_OR_PLYWOOD_GT_OR_EQ2_7_16_INCH_THICK</iep:deckSheathing>
             <iep:edges>
               <iep:edge id="edge-e">
-                <iep:startIdRef>E</iep:startIdRef>
-                <iep:endIdRef>F</iep:endIdRef>
+                <iep:startIdRef>array-area-local-vertex-E</iep:startIdRef>
+                <iep:endIdRef>array-area-local-vertex-F</iep:endIdRef>
                 <iep:type>ridge</iep:type>
               </iep:edge>
               <iep:edge id="edge-f">
-                <iep:startIdRef>F</iep:startIdRef>
-                <iep:endIdRef>G</iep:endIdRef>
+                <iep:startIdRef>array-area-local-vertex-F</iep:startIdRef>
+                <iep:endIdRef>array-area-local-vertex-G</iep:endIdRef>
                 <iep:type>rake</iep:type>
               </iep:edge>
               <iep:edge id="edge-g">
-                <iep:startIdRef>G</iep:startIdRef>
-                <iep:endIdRef>H</iep:endIdRef>
+                <iep:startIdRef>array-area-local-vertex-G</iep:startIdRef>
+                <iep:endIdRef>array-area-local-vertex-H</iep:endIdRef>
                 <iep:type>eave</iep:type>
               </iep:edge>
               <iep:edge id="edge-h">
-                <iep:startIdRef>H</iep:startIdRef>
-                <iep:endIdRef>E</iep:endIdRef>
+                <iep:startIdRef>array-area-local-vertex-H</iep:startIdRef>
+                <iep:endIdRef>array-area-local-vertex-E</iep:endIdRef>
                 <iep:type>rake</iep:type>
               </iep:edge>
             </iep:edges>
