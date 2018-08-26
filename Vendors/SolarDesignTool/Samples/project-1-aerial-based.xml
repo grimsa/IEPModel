@@ -543,8 +543,7 @@
                 <iep:type>rake</iep:type>
               </iep:edge>
             </iep:edges>
-            <structure id="null-225517">
-              <iep:name>aec59cd7-cfc8-48ed-bb7f-75d1a135c4c6</iep:name>
+            <structure>
               <iep:constructionStyle>MANUFACTURED_TRUSS</iep:constructionStyle>
               <iep:rafterCrossSection>2x4_POST_1960</iep:rafterCrossSection>
               <iep:rafterSpacing>0.6096</iep:rafterSpacing>

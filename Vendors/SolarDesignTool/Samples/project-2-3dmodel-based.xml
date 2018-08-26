@@ -773,8 +773,7 @@
                 <iep:type>ridge</iep:type>
               </iep:edge>
             </iep:edges>
-            <structure id="null-225531">
-              <iep:name>e1449c62-70cc-4693-9547-a9737964d187</iep:name>
+            <structure>
               <iep:constructionStyle>MANUFACTURED_TRUSS</iep:constructionStyle>
               <iep:rafterCrossSection>2x4_POST_1960</iep:rafterCrossSection>
               <iep:rafterSpacing>0.6096</iep:rafterSpacing>
@@ -1304,8 +1303,7 @@
                 <iep:type>rake</iep:type>
               </iep:edge>
             </iep:edges>
-            <structure id="null-225530">
-              <iep:name>f78488ad-0491-4e1d-9a39-f83662561089</iep:name>
+            <structure>
               <iep:constructionStyle>MANUFACTURED_TRUSS</iep:constructionStyle>
               <iep:rafterCrossSection>2x4_POST_1960</iep:rafterCrossSection>
               <iep:rafterSpacing>0.6096</iep:rafterSpacing>
