@@ -1300,7 +1300,7 @@
     </iep:building>
   </iep:buildings>
   <iep:electricDistributionSystems>
-    <iep:electricDistributionSystem>
+    <iep:electricDistributionSystem id="EL-DIST-SYSTEM-ID-1154">
       <iep:electricalPanelDefinitions>
         <iep:electricalPanelDefinition id="DEF-ELECTRICAL_PANEL-79500">
           <iep:manufacturer>Generic Manufacturer</iep:manufacturer>
