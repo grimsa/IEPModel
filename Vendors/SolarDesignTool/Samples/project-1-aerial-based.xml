@@ -69,13 +69,11 @@
   </iep:participants>
   <iep:codes>
     <iep:code>
-      <iep:name>California Electric Code</iep:name>
-      <iep:acronym>CEC</iep:acronym>
+      <iep:type>ELECTRIC_CODE_CALIFORNIA</iep:type>
       <iep:edition>2016</iep:edition>
     </iep:code>
     <iep:code>
-      <iep:name>California Fire Code</iep:name>
-      <iep:acronym>CFC</iep:acronym>
+      <iep:type>FIRE_CODE_CALIFORNIA</iep:type>
       <iep:edition>2016</iep:edition>
     </iep:code>
   </iep:codes>

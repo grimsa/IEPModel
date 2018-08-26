@@ -485,6 +485,16 @@ Included reference to Utility Service here instead of in Building since Project 
 					</xs:sequence>
 				</xs:complexType>
 			</xs:element>
+			<xs:element name="codes" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>A set of codes that this project must comply with.</xs:documentation>
+				</xs:annotation>
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="code" type="code" maxOccurs="unbounded"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
 			<xs:element name="projectInitiator" type="dataOriginator" maxOccurs="1" minOccurs="0">
 				<xs:annotation>
 					<xs:documentation>This is intended to identify the participant who initially collected the project data. This could be a website as well as a person</xs:documentation>
@@ -685,5 +695,23 @@ The organization is consistent in many energy management systems and programable
 			</xs:element>
 		</xs:sequence>
 		<xs:attribute name="id" type="xs:ID"/>
+	</xs:complexType>
+	<xs:complexType name="code">
+		<xs:annotation>
+			<xs:documentation>Defines code - a set of rules to comply with (e.g. California 2016 Fire Code)</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="type">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="FIRE_CODE_CALIFORNIA"/>
+						<xs:enumeration value="FIRE_CODE_NFPA_1"/>
+						<xs:enumeration value="ELECTRIC_CODE_CALIFORNIA"/>
+						<xs:enumeration value="ELECTRIC_CODE_NATIONAL"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="edition" type="xs:string"/>
+		</xs:sequence>
 	</xs:complexType>
 </xs:schema>

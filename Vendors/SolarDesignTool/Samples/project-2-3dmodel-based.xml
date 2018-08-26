@@ -81,13 +81,11 @@
   </iep:participants>
   <iep:codes>
     <iep:code>
-      <iep:name>National Electric Code</iep:name>
-      <iep:acronym>NEC</iep:acronym>
+      <iep:type>ELECTRIC_CODE_NATIONAL</iep:type>
       <iep:edition>2017</iep:edition>
     </iep:code>
     <iep:code>
-      <iep:name>National Fire Prevention Association</iep:name>
-      <iep:acronym>NFPA 1</iep:acronym>
+      <iep:type>FIRE_CODE_NFPA_1</iep:type>
       <iep:edition>2015</iep:edition>
     </iep:code>
   </iep:codes>
