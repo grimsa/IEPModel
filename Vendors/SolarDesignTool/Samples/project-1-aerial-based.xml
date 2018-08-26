@@ -112,7 +112,7 @@
       <iep:asceEdition>ASCE_7_10</iep:asceEdition>
       <iep:windExposureCategory>B</iep:windExposureCategory>
       <iep:topographicalCondition>STANDARD</iep:topographicalCondition>
-      <iep:designWindSpeed>110</iep:designWindSpeed>
+      <iep:designWindSpeed unit="MILES_PER_HOUR">110</iep:designWindSpeed>
       <iep:specialWindRegion>false</iep:specialWindRegion>
       <iep:highestRiskCategory>II</iep:highestRiskCategory>
       <iep:groundSnowLoad>0</iep:groundSnowLoad>
