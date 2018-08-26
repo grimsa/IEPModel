@@ -81,6 +81,19 @@
       <iep:edition>2016</iep:edition>
     </iep:code>
   </iep:codes>
+  <iep:utilityServices>
+    <iep:utilityService id="null-90">
+      <iep:applicationIds>
+        <iep:applicationId>
+          <iep:idValue>90</iep:idValue>
+          <iep:idSource>SolarDesignTool</iep:idSource>
+        </iep:applicationId>
+      </iep:applicationIds>
+      <iep:utilityId>14328</iep:utilityId>
+      <iep:utilityName>Pacific Gas &amp; Electric Co</iep:utilityName>
+      <iep:utilityMeterId>34578345</iep:utilityMeterId>
+    </iep:utilityService>
+  </iep:utilityServices>
   <iep:site>
     <iep:location>
       <iep:line1>141 Kennan St</iep:line1>
@@ -550,6 +563,7 @@
           <iep:ratedCurrent>200</iep:ratedCurrent>
         </iep:electricalPanelDefinition>
       </iep:electricalPanelDefinitions>
+      <iep:electricServiceEntryEquipmentIdRef>ELECTRICAL_PANEL-79487</iep:electricServiceEntryEquipmentIdRef>
       <iep:electricalPanels>
         <iep:electricalPanel id="ELECTRICAL_PANEL-79487" equipmentDefinitionIdRef="DEF-ELECTRICAL_PANEL-79487">
           <iep:name>MSP</iep:name>
@@ -558,20 +572,6 @@
           </iep:mainBreaker>
         </iep:electricalPanel>
       </iep:electricalPanels>
-      <iep:electricServiceEntryEquipmentIdRef>ELECTRICAL_PANEL-79487</iep:electricServiceEntryEquipmentIdRef>
     </iep:electricDistributionSystem>
   </iep:electricDistributionSystems>
-  <iep:utilityServices>
-    <iep:utilityService id="null-90">
-      <iep:applicationIds>
-        <iep:applicationId>
-          <iep:idValue>90</iep:idValue>
-          <iep:idSource>SolarDesignTool</iep:idSource>
-        </iep:applicationId>
-      </iep:applicationIds>
-      <iep:utilityId>14328</iep:utilityId>
-      <iep:utilityName>Pacific Gas &amp; Electric Co</iep:utilityName>
-      <iep:utilityMeterId>34578345</iep:utilityMeterId>
-    </iep:utilityService>
-  </iep:utilityServices>
 </iep:project>

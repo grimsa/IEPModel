@@ -93,6 +93,19 @@
       <iep:edition>2015</iep:edition>
     </iep:code>
   </iep:codes>
+  <iep:utilityServices>
+    <iep:utilityService id="null-61">
+      <iep:applicationIds>
+        <iep:applicationId>
+          <iep:idValue>61</iep:idValue>
+          <iep:idSource>SolarDesignTool</iep:idSource>
+        </iep:applicationId>
+      </iep:applicationIds>
+      <iep:utilityId>11804</iep:utilityId>
+      <iep:utilityName>Massachusetts Electric Co</iep:utilityName>
+      <iep:utilityMeterId>345345</iep:utilityMeterId>
+    </iep:utilityService>
+  </iep:utilityServices>
   <iep:site>
     <iep:location>
       <iep:line1>15 Harvard Way</iep:line1>
@@ -1311,6 +1324,7 @@
           <iep:ratedCurrent>200</iep:ratedCurrent>
         </iep:electricalPanelDefinition>
       </iep:electricalPanelDefinitions>
+      <iep:electricServiceEntryEquipmentIdRef>ELECTRICAL_PANEL-79500</iep:electricServiceEntryEquipmentIdRef>
       <iep:electricalPanels>
         <iep:electricalPanel id="ELECTRICAL_PANEL-79500" equipmentDefinitionIdRef="DEF-ELECTRICAL_PANEL-79500">
           <iep:name>MSP</iep:name>
@@ -1319,20 +1333,6 @@
           </iep:mainBreaker>
         </iep:electricalPanel>
       </iep:electricalPanels>
-      <iep:electricServiceEntryEquipmentIdRef>ELECTRICAL_PANEL-79500</iep:electricServiceEntryEquipmentIdRef>
     </iep:electricDistributionSystem>
   </iep:electricDistributionSystems>
-  <iep:utilityServices>
-    <iep:utilityService id="null-61">
-      <iep:applicationIds>
-        <iep:applicationId>
-          <iep:idValue>61</iep:idValue>
-          <iep:idSource>SolarDesignTool</iep:idSource>
-        </iep:applicationId>
-      </iep:applicationIds>
-      <iep:utilityId>11804</iep:utilityId>
-      <iep:utilityName>Massachusetts Electric Co</iep:utilityName>
-      <iep:utilityMeterId>345345</iep:utilityMeterId>
-    </iep:utilityService>
-  </iep:utilityServices>
 </iep:project>
