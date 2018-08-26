@@ -69,9 +69,9 @@
 				<xs:complexType>
 					<xs:simpleContent>
 						<xs:extension base="xs:string">
-							<xs:attribute name="ScopeOfWorkIdRef" type="xs:IDREF">
+							<xs:attribute name="solutionIdRef" type="xs:IDREF">
 								<xs:annotation>
-									<xs:documentation>This ID is used to associate the ProposedRateSchedule with a single ScopeOfWork in a Project. A project may have more than one ScopeOfWork defined. The proposed rate schedule may differ from one Scope Of Work to another.</xs:documentation>
+									<xs:documentation>This ID is used to associate the ProposedRateSchedule with a single Solution in a Project. A project may have more than one Solution defined. The proposed rate schedule may differ from one Solution to another.</xs:documentation>
 								</xs:annotation>
 							</xs:attribute>
 						</xs:extension>
