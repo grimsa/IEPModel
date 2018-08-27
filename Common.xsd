@@ -112,6 +112,11 @@ This is also used for PowerClerk/CSI program</xs:documentation>
 Note that if there are more than one street address, the model forces these to be separate Sites/Projects. If a Building on the project site has more than one street address, only one is required to identify the location.</xs:documentation>
                 </xs:annotation>
             </xs:element>
+            <xs:element name="siteMapCoordinateSystemOrigin" type="geoLocation" minOccurs="0">
+                <xs:annotation>
+                    <xs:documentation>This is the bottom left hand corner of the bounding box of this site. All site geometry coordinates are relative to this origin.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
             <xs:element name="siteDefinitionMethod" minOccurs="0">
                 <xs:annotation>
                     <xs:documentation>Describes how the site was originally defined. Was it a trace over aerial imagery, or was it an import a 3D model?</xs:documentation>
