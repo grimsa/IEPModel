@@ -565,6 +565,7 @@
           <iep:mainBreaker>
             <iep:currentRating>200</iep:currentRating>
           </iep:mainBreaker>
+          <iep:busbarFeedLocation>TOP</iep:busbarFeedLocation>
         </iep:electricalPanel>
       </iep:electricalPanels>
     </iep:electricDistributionSystem>

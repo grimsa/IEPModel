@@ -223,6 +223,18 @@
                             <xs:documentation>Describes an internal circuit breaker, if any, that serves as the main OCPD and power disconnect to this panel's bus.  Note that the ElectricPanel may or may not have an internal main breaker.  Panels with or without a main internal breaker may also have an OCPD on the ElectricPanel's CircuitConnection element which serves as the energizing source for this panel.</xs:documentation>
                         </xs:annotation>
                     </xs:element>
+                    <xs:element name="busbarFeedLocation" minOccurs="0">
+                        <xs:annotation>
+                            <xs:documentation>Describes the busbar point of connection. Busbars can be either top-, center-, or bottom-fed.</xs:documentation>
+                        </xs:annotation>
+                        <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                                <xs:enumeration value="TOP"/>
+                                <xs:enumeration value="CENTER"/>
+                                <xs:enumeration value="BOTTOM"/>
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:element>
                     <xs:element minOccurs="0" name="existence" type="xs:string">
                         <xs:annotation>
                             <xs:documentation>Is this panel existing or new (proposed)?  When the ElectricalPanel is used within the existingElectricalSystem element inside of a Project's Site element, this is assumed to be an existing panel.  However, if the panel is just being defined within a PvDesign's AcTie-InPanel element, then its important to know if the panel being described already exists or is new (and therefore part of the scope of work).</xs:documentation>
