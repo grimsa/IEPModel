@@ -112,26 +112,12 @@
       <iep:groundSnowLoad>0</iep:groundSnowLoad>
     </iep:structuralDesignParameters>
     <iep:assessorsParcelNumber>34578345</iep:assessorsParcelNumber>
-    <iep:administrativeDivision id="1776">
-      <iep:applicationIds>
-        <iep:applicationId>
-          <iep:idValue>1776</iep:idValue>
-          <iep:idSource>SolarDesignTool</iep:idSource>
-        </iep:applicationId>
-      </iep:applicationIds>
-      <iep:name>Santa Cruz</iep:name>
-      <iep:authorityHavingJurisdiction>
-        <iep:address>
-          <iep:city>Santa Cruz</iep:city>
-          <iep:state>CA</iep:state>
-        </iep:address>
-      </iep:authorityHavingJurisdiction>
+    <iep:authorityHavingJurisdiction>
+      <iep:state>CA</iep:state>
       <iep:type>INCORPORATED_PLACE</iep:type>
       <iep:incorporatedPlaceType>CITY</iep:incorporatedPlaceType>
-      <iep:state>CA</iep:state>
-      <iep:latitude>37.051</iep:latitude>
-      <iep:longitude>-122.0136</iep:longitude>
-    </iep:administrativeDivision>
+      <iep:name>Santa Cruz</iep:name>
+    </iep:authorityHavingJurisdiction>
     <iep:weather>
       <iep:temperatureDatasets>
         <iep:ashraeTemperatureDataset>

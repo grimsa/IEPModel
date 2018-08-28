@@ -123,26 +123,11 @@
       <iep:groundSnowLoad>0</iep:groundSnowLoad>
     </iep:structuralDesignParameters>
     <iep:assessorsParcelNumber>546465</iep:assessorsParcelNumber>
-    <iep:administrativeDivision id="11252">
-      <iep:applicationIds>
-        <iep:applicationId>
-          <iep:idValue>11252</iep:idValue>
-          <iep:idSource>SolarDesignTool</iep:idSource>
-        </iep:applicationId>
-      </iep:applicationIds>
-      <iep:name>Newbury</iep:name>
-      <iep:authorityHavingJurisdiction>
-        <iep:address>
-          <iep:city>Newbury</iep:city>
-          <iep:state>MA</iep:state>
-        </iep:address>
-      </iep:authorityHavingJurisdiction>
-      <iep:type>INCORPORATED_PLACE</iep:type>
-      <iep:incorporatedPlaceType>TOWN</iep:incorporatedPlaceType>
+    <iep:authorityHavingJurisdiction>
       <iep:state>MA</iep:state>
-      <iep:latitude>42.7802</iep:latitude>
-      <iep:longitude>-70.8638</iep:longitude>
-    </iep:administrativeDivision>
+      <iep:type>COMPANY</iep:type>
+      <iep:name>Name of company acting as AHJ</iep:name>
+    </iep:authorityHavingJurisdiction>
     <iep:weather>
       <iep:temperatureDatasets>
         <iep:ashraeTemperatureDataset>

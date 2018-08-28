@@ -136,11 +136,36 @@ Note that if there are more than one street address, the model forces these to b
             <xs:element minOccurs="0" name="realEstateClassification"
                 type="realEstateClassificationEnum"/>
             <xs:element maxOccurs="1" minOccurs="0" name="assessorsParcelNumber" type="xs:string"/>
-            <xs:element maxOccurs="1" minOccurs="0" name="authorityHavingJurisdiction"
-                type="xs:string">
+            <xs:element maxOccurs="1" minOccurs="0" name="authorityHavingJurisdiction">
                 <xs:annotation>
-                    <xs:documentation>Also known as "AHJ."  This is the city, county, or other authority with jurisdiction over building permits and inspections.</xs:documentation>
+                    <xs:documentation>Also known as "AHJ."  This is the city, county, or other authority with jurisdiction over building permits and inspections.
+                        In case administrative division is acting as AHJ, all elements must be provided. If administrative division outsources AHJ, only type and name elements must be provided.
+                    </xs:documentation>
                 </xs:annotation>
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="state" minOccurs="0"/>
+                        <xs:element name="type" minOccurs="0">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:enumeration value="INCORPORATED_PLACE"/>
+                                    <xs:enumeration value="COMPANY"/>
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:element>
+                        <xs:element name="incorporatedPlaceType" minOccurs="0">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:enumeration value="CITY"/>
+                                    <xs:enumeration value="TOWN"/>
+                                    <xs:enumeration value="BOROUGH"/>
+                                    <xs:enumeration value="VILLAGE"/>
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:element>
+                        <xs:element name="name" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
             </xs:element>
             <xs:element maxOccurs="1" minOccurs="0" name="customerOwnsProperty" type="xs:boolean">
                 <xs:annotation>
