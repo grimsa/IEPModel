@@ -534,6 +534,7 @@ Included reference to Utility Service here instead of in Building since Project 
 					<xs:documentation>The site element describes the property on which the project is being considered or implemented.  It describes ownership and jurisdictional information, as well as physical attributes associated with the property and grounds. </xs:documentation>
 				</xs:annotation>
 			</xs:element>
+			<xs:element name="designParameters" type="projectDesignParameters" minOccurs="0"/>
 			<xs:element minOccurs="0" name="buildings">
 				<xs:complexType>
 					<xs:sequence>
@@ -681,5 +682,149 @@ The organization is consistent in many energy management systems and programable
 			</xs:element>
 		</xs:sequence>
 		<xs:attribute name="id" type="xs:ID"/>
+	</xs:complexType>
+	<xs:complexType name="projectDesignParameters">
+		<xs:annotation>
+			<xs:documentation>Describes various design parameters for analysis and modeling.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="codes" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>A set of codes that this project must comply with.</xs:documentation>
+				</xs:annotation>
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="code" type="code" maxOccurs="unbounded"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="temperature" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>A set of temperature datasets. Typically required for configuring inverter circuits.</xs:documentation>
+				</xs:annotation>
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="temperatureDataset" type="temperatureDataset" maxOccurs="unbounded"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="structuralDesign" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>A set of parameters relevant to structural design.</xs:documentation>
+				</xs:annotation>
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="asceEdition" minOccurs="0">
+							<xs:simpleType>
+								<xs:restriction base="xs:string">
+									<xs:enumeration value="ASCE_7_10"/>
+									<xs:enumeration value="ASCE_7_16"/>
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:element>
+						<xs:element name="windExposureCategory" minOccurs="0">
+							<xs:annotation>
+								<xs:documentation>Wind exposure categories as defined in ASCE 7.</xs:documentation>
+							</xs:annotation>
+							<xs:simpleType>
+								<xs:restriction base="xs:string">
+									<xs:enumeration value="B"/>
+									<xs:enumeration value="C"/>
+									<xs:enumeration value="D"/>
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:element>
+						<xs:element name="topographicalCondition" minOccurs="0">
+							<xs:simpleType>
+								<xs:restriction base="xs:string">
+									<xs:enumeration value="STANDARD"/>
+									<xs:enumeration value="TOP_OF_HILL"/>
+									<xs:enumeration value="COASTAL"/>
+									<xs:enumeration value="MESA"/>
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:element>
+						<xs:element name="designWindSpeed" type="velocity" minOccurs="0">
+							<xs:annotation>
+								<xs:documentation>Required for PV system structural validations. For CA permitting guidebook, speed must be less than 110mph. This is based from ASCE 7-10, risk category II for CA.</xs:documentation>
+							</xs:annotation>
+						</xs:element>
+						<xs:element name="specialWindRegion" type="xs:boolean" minOccurs="0"/>
+						<xs:element name="groundSnowLoad" type="dimension" minOccurs="0"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="code">
+		<xs:annotation>
+			<xs:documentation>Defines code - a set of rules to comply with (e.g. California 2016 Fire Code)</xs:documentation>
+		</xs:annotation>
+		<xs:attribute name="type" use="required">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="FIRE"/>
+					<xs:enumeration value="ELECTRIC"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="codeBody" use="required">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="NATIONAL_FIRE_PROTECTION_ASSOCIATION"/>
+					<xs:enumeration value="CALIFORNIA"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="edition" type="xs:string" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="temperatureDataset">
+		<xs:annotation>
+			<xs:documentation>A collection of temperature data points with metadata describing them.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="temperatureDataPoint" type="temperatureDataPoint" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="type" use="required">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="HIGH"/>
+					<xs:enumeration value="LOW"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="source" use="required">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="ASHRAE"/>
+					<xs:enumeration value="HISTORIC"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="dateRecorded" type="xs:date" use="required"/>
+		<xs:attribute name="description" type="xs:string"/>
+	</xs:complexType>
+	<xs:complexType name="temperatureDataPoint">
+		<xs:simpleContent>
+			<xs:extension base="xs:decimal">
+				<xs:attribute name="type" use="required">
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="RECORD_HIGH"/>
+							<xs:enumeration value="RECORD_LOW"/>
+							<xs:enumeration value="HIGHEST_MONTHLY_AVERAGE"/>
+							<xs:enumeration value="LOWEST_MONTHLY_AVERAGE"/>
+							<xs:enumeration value="MAXIMUM_MEAN_EXTREME_DRY_BULB"/>
+							<xs:enumeration value="MINIMUM_MEAN_EXTREME_DRY_BULB"/>
+							<xs:enumeration value="HIGHEST_MONTH_TWO_PERCENT_DRY_BULB"/>
+							<xs:enumeration value="HIGH_IN_CONDUIT_HALF_INCH_ABOVE_ROOF"/>
+							<xs:enumeration value="HIGH_IN_CONDUIT_THREE_AND_HALF_INCHES_ABOVE_ROOF"/>
+							<xs:enumeration value="HIGH_IN_CONDUIT_ONE_FOOT_ABOVE_ROOF"/>
+							<xs:enumeration value="HIGH_IN_CONDUIT_THREE_FEET_ABOVE_ROOF"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:attribute>
+			</xs:extension>
+		</xs:simpleContent>
 	</xs:complexType>
 </xs:schema>

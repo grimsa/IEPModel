@@ -1187,21 +1187,6 @@
             </xs:element>
         </xs:sequence>
     </xs:complexType>
-    <xs:complexType name="weatherData">
-        <xs:sequence>
-            <xs:element minOccurs="0" name="ExpectedHighTemperature" type="xs:decimal">
-                <xs:annotation>
-                    <xs:documentation>Expected highest temperature in degrees Celcius at the system's location.  Used to evaluate equipment derating.</xs:documentation>
-                </xs:annotation>
-            </xs:element>
-            <xs:element minOccurs="0" name="ExpectedLowTemperature" type="xs:decimal">
-                <xs:annotation>
-                    <xs:documentation>Expected lowest temperature in degrees Celcius at the system's location.  Used to evaluate maximum system output.</xs:documentation>
-                </xs:annotation>
-            </xs:element>
-            <xs:element minOccurs="0" name="siteWeatherData" type="siteWeatherData"/>
-        </xs:sequence>
-    </xs:complexType>
     <xs:complexType name="exclusionArea">
         <xs:annotation>
             <xs:documentation>For a module layout, this defines any area within a given scene that may contain multiple roofFaces and groundAreas that modules cannot be placed. The coordinates used in this element apply to the whole scene of roofFaces and groundAreas where moduleLayouts are placed (may contain more than one area).</xs:documentation>
