@@ -157,6 +157,11 @@
                     <xs:documentation>Typically one screw per anchor.</xs:documentation>
                 </xs:annotation>
             </xs:element>
+            <xs:element minOccurs="0" name="commonModuleStandoff" type="xs:double">
+                <xs:annotation>
+                    <xs:documentation>Standoff describes the average spacing from the back of the modules to the installation surface (e.g. roof or ground).  Standoff is used in calculating system output when the calculator considers heat effects of reduced air circulation to the back of the modules.  Many incentive programs reduce incentive payments when air circulation is minimal.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
             <xs:element minOccurs="0" name="numberOfRowsPerRack" type="xs:int" default="1">
                 <xs:annotation>
                     <xs:documentation>Describes the quantity of module rows within a single rack structure. Ground mount tilted racks typically have multiple module rows.</xs:documentation>
@@ -1772,11 +1777,6 @@ If the PvDesign is used within a Project.xml document, and the PvDesign calls fo
             <xs:element minOccurs="0" name="azimuth" type="angle"/>
             <xs:element minOccurs="0" name="tilt" type="angle"/>
             <xs:element default="FIXED" minOccurs="0" name="trackingMode" type="trackingModeEnum"/>
-            <xs:element minOccurs="0" name="commonModuleStandoff" type="xs:double">
-                <xs:annotation>
-                    <xs:documentation>Standoff describes the average spacing from the back of the modules to the installation surface (e.g. roof or ground).  Standoff is used in calculating system output when the calculator considers heat effects of reduced air circulation to the back of the modules.  Many incentive programs reduce incentive payments when air circulation is minimal.</xs:documentation>
-                </xs:annotation>
-            </xs:element>
             <xs:element minOccurs="0" name="commonModuleOrientation" type="panelOrientationEnum">
                 <xs:annotation>
                     <xs:documentation>The orientation of the rectangular module.  "Portrait" indicates that the long dimension is vertical, while "Landscape" indicates that the long dimension is horizontal.
